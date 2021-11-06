@@ -13,7 +13,7 @@ function App() {
         </p>
 
         <p>
-          Hello
+          im gay
         </p>
         <p>
           Test
