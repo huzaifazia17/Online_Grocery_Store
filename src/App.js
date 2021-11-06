@@ -11,6 +11,10 @@ function App() {
         <p>
           H2Z2 Grocery Store
         </p>
+
+        <p>
+          Hello
+        </p>
       </header>
     </div>
   );
