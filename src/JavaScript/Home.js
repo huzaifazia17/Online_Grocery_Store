@@ -1,0 +1,1 @@
+// Home.js will contain main page with all grocery items
