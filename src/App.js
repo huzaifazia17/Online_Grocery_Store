@@ -13,7 +13,7 @@ function App() {
         </p>
 
         <p>
-          im gayyyyyyyyyyyyyyyy
+          im cool
         </p>
         <p>
           Test
