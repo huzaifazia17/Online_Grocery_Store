@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    font-family: 'Abhaya Libre', serif;
 }
 
 .navbar-logo{
@@ -26,7 +27,7 @@
     list-style: none;
     text-align: center;
     width: 70vw;
-    justify-content: end;
+    justify-content: center;
     margin-right: 2rem;
 }
 

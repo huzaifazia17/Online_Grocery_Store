@@ -1,17 +1,17 @@
 import '../Styles/NavBar.css'
-import React, {Component} from 'react';
-import {NavItems} from "./NavItems";
-import {Button} from './Button';
+import React, { Component } from 'react';
+import { NavItems } from "./NavItems";
+import { Button } from './Button';
 
-class NavBar extends Component{
-    state = {clicked: false}
+class NavBar extends Component {
+    state = { clicked: false }
 
     handleClick = () => {
-        this.setState({clicked: !this.state.clicked})
+        this.setState({ clicked: !this.state.clicked })
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <nav className="NavBarItems">
                 <h1 className="navbar-logo"> H2Z2 Groceries<i className="fab fa-react"></i></h1>
                 <div className="menu-icon" onClick={this.handleClick}>
@@ -25,8 +25,9 @@ class NavBar extends Component{
                                     {item.title}
                                 </a>
                             </li>
+
                         )
-                    } )}
+                    })}
                 </ul>
                 <Button>CART</Button>
             </nav>
