@@ -3,7 +3,7 @@ import '../Styles/Button.css';
 
 
 const STYLES = [
-    'btn--primary', 
+    'btn--primary',
     'btn--outline'
 ]
 
@@ -17,15 +17,17 @@ export const Button = ({
     type,
     onClick,
     buttonStyle,
-    buttonSize
+    buttonSize,
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]
-
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
-    return(
-        <button className={`btn ${checkButtonStyle} ${checkButtonSize} onClick={onClick} type={type}`}>
-            {children}
-        </button>
+    return (
+        <a href='/Cart'>
+            <button className={`btn ${checkButtonStyle} ${checkButtonSize} onClick={onClick} type={type}`}>
+                {children}
+            </button>
+        </a>
+
     )
 }

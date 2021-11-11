@@ -6,6 +6,12 @@
     align-items: center;
     font-size: 1.2rem;
     font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+}
+
+.navbar-logo-link{
+    text-decoration: none;
+    color:aliceblue;
 }
 
 .navbar-logo{

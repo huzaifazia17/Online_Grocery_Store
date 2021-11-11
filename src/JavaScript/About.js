@@ -6,6 +6,18 @@ const About = () => {
     return (
         <div className="Test">
             <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
+            <h1>ABOUT US BOIII</h1>
 
         </div>
 
