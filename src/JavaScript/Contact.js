@@ -1,14 +1,12 @@
-// Contact.js will contain the contact form 
+
+import '../Styles/Contact.css'
 
 const Contact = () => {
     return (
         <div>
-            <h1>Wow</h1>
-            <h1>Wow</h1>
-            <h1>Wow</h1>
-            <h1>Wow</h1>
 
         </div>
+
     )
 }
 

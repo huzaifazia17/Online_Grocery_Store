@@ -1,8 +1,14 @@
-// SIgnUp.js will contain the sign up and promotion form
+
 const SignUp = () => {
     return (
-        <h1>Hello</h1>
+        <div>
+            <h1>Hello</h1>
+            <h1>Hello</h1>
+            <h1>Hello</h1>
+        </div>
+
     )
 }
+
 
 export default SignUp;
