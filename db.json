@@ -23,6 +23,24 @@
       "password": "n",
       "email": "n",
       "id": 4
+    },
+    {
+      "username": "huziafa",
+      "password": "yeet",
+      "email": "wussup",
+      "id": 5
+    },
+    {
+      "username": "Huzaifa Zia",
+      "password": "potatot",
+      "email": "ziahuzaifa123@gmail.com",
+      "id": 6
+    },
+    {
+      "username": "cool",
+      "password": "cool",
+      "email": "cool",
+      "id": 7
     }
   ]
 }
