@@ -1,5 +1,6 @@
 .NavBarItems{
-    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73,63,252,1) 100%);
+    background: rgb(162,153,182);
+    background: linear-gradient(90deg, rgba(162,153,182,1) 1%, rgba(127,151,163,1) 47%, rgba(194,232,240,1) 86%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -7,6 +8,10 @@
     font-size: 1.2rem;
     font-family: 'Abhaya Libre', serif;
     text-decoration: none;
+    position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+
 }
 
 .navbar-logo-link{
