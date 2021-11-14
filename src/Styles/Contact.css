@@ -1,5 +1,6 @@
 .contactUs{
     text-align: center;
+    color: #4066E0;
     font-size:72px;
     font-family: 'Abhaya Libre', serif;
     padding-top: 30px;
@@ -14,6 +15,7 @@
 h1{
     text-align: center;
 }
+
 p{
     padding:10px
 }
