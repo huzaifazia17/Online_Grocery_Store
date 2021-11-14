@@ -5,16 +5,15 @@ import About from './JavaScript/About.js'
 import Contact from './JavaScript/Contact.js'
 import Cart from './JavaScript/Cart.js'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import SignUpForm from './JavaScript/SignUp/SignUpForm.js'
 
 
 const App = () => {
 
   return (
-  
+
     <Router>
-    
+
       <div className="App">
         {/*Navbar Component */}
         <NavBar />
