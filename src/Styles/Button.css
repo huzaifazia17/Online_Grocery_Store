@@ -2,14 +2,14 @@
     --primary: #3acbf7;
 }
 
-.btn {
+.btn1 {
     padding: 8px 20px;
     border-radius: 4px;
     outline: none;
     border: none;
     cursor: pointer;
 }
-.btn:hover{
+.btn1:hover{
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #fff;

@@ -24,7 +24,7 @@ export const Button = ({
 
     return (
         <a href='/Cart'>
-            <button className={`btn ${checkButtonStyle} ${checkButtonSize} onClick={onClick} type={type}`}>
+            <button className={`btn1 ${checkButtonStyle} ${checkButtonSize} onClick={onClick} type={type}`}>
                 {children}
             </button>
         </a>

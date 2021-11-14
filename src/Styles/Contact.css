@@ -1,10 +1,17 @@
+.form-container{
+    background-color: #efe8f0;
+}
 .contactUs{
     text-align: center;
     font-size:72px;
     font-family: 'Abhaya Libre', serif;
     padding-top: 30px;
+    color: rgb(63, 63, 129);
 }
 
+.dissapear{
+    color: #efe8f0;
+}
 .questions{
     font-size: 20px;
     text-align: center;

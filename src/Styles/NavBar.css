@@ -33,10 +33,9 @@
     list-style: none;
     text-align: center;
     width: 70vw;
-    justify-content: center;
+    justify-content:center;
     margin-right: 2rem;
 }
-
 .nav-links{
     color: white;
     text-decoration: none;
@@ -95,6 +94,7 @@
     .nav-links:hover{
         background-color: #7577fa;
         border-radius: 0;
+        color: white;
     }
 
     .navbar-logo{
