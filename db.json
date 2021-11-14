@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "username": "zubxxr",
+      "password": "sadsad123",
+      "email": "zubxxr@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "sadsads",
+      "password": "sadsa123",
+      "email": "sadsadas@gmail.com",
+      "id": 2
+    },
+    {
+      "username": "d",
+      "password": "d",
+      "email": "d",
+      "id": 3
+    },
+    {
+      "username": "hn",
+      "password": "n",
+      "email": "n",
+      "id": 4
+    }
+  ]
+}
