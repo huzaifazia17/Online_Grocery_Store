@@ -1,0 +1,87 @@
+.contactUs{
+    text-align: center;
+    font-size:72px;
+    font-family: 'Abhaya Libre', serif;
+    padding-top: 30px;
+}
+
+.questions{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    padding:10px
+}
+
+.contact-info
+{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: lightskyblue;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 2%; /* Add a top margin */
+    margin-bottom: 5%; /* Bottom margin */
+    margin-left: 15%;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+
+.contact-form
+{
+    padding:25px;
+    background: lightcoral;
+    float: right;
+    width: 45%;
+    border-radius: 4px;
+    background-color: #CBC3E3;
+    padding: 20px;
+    margin-top: 2%; /* Add a top margin */
+    margin-bottom: 5%; /* Bottom margin */
+    margin-right: 15%;
+    display: flex;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+input[type=email], select, textarea{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:#301934;
+}
