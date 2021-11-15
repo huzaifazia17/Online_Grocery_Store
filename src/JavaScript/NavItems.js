@@ -15,6 +15,11 @@ export const NavItems = [
         className: 'nav-links'
     },
     {
+        title: 'Login',
+        url: '/Login',
+        className: 'nav-links'
+    },
+    {
         title: 'Contact Us',
         url: '/ContactUs',
         className: 'nav-links'
