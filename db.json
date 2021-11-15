@@ -5,6 +5,36 @@
       "password": "sadsadsa",
       "email": "dsads@gmadsa.cpm",
       "id": 1
+    },
+    {
+      "username": "dsad",
+      "password": "sadsad",
+      "email": "dsdsd!@dsadsa",
+      "id": 2
+    },
+    {
+      "username": "sa",
+      "password": "asas",
+      "email": "asas@dsd",
+      "id": 3
+    },
+    {
+      "username": "gfgdf",
+      "password": "dfgdfg",
+      "email": "dfgdfgdf@fsdfsd",
+      "id": 4
+    },
+    {
+      "username": "fsd",
+      "password": "fsdfsd",
+      "email": "fdsf@dasd",
+      "id": 5
+    },
+    {
+      "username": "zdsad",
+      "password": "admin123",
+      "email": "admin@admin.com",
+      "id": 6
     }
   ]
 }

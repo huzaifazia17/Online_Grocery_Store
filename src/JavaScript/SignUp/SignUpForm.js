@@ -5,10 +5,11 @@ import SignUp from './SignUp.js'
 import './SignUp.css'
 //import '../JavaScript/Styles/Contact.css'
 
-
-
 const SignUpForm = () => {
   const [users, setUsers] = useState([])
+  //const [users, setUsers] = useState([{ name: "", email: "" }]);
+
+
 
   useEffect(() => {
     const getUsers = async () => {
