@@ -11,6 +11,12 @@
       "password": "mia",
       "email": "hey@gmail.com",
       "id": 2
+    },
+    {
+      "username": "mali",
+      "password": "poop",
+      "email": "ziyadk0212@gmail.com",
+      "id": 3
     }
   ]
 }
