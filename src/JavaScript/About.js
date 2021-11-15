@@ -4,7 +4,8 @@ import '../Styles/About.css';
 
 const About = () => {
     return (
-        <div>
+        <div className="about-container">
+
             <div className="about">
                 <h1>About Us</h1>
             </div>
@@ -31,7 +32,7 @@ const About = () => {
             </div>
 
             <div className="hanzalah-img">
-                <p>hanzalah image</p>
+                <p>hanzalah img</p>
             </div>
             <div className="hanzalah">
                 <p>my name is hanzalah</p>
