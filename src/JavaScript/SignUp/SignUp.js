@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './SignUp.css'
 
 const SignUp = ({onAdd}) => {
   const [username, setUsername] = useState('')
@@ -21,8 +22,9 @@ const SignUp = ({onAdd}) => {
   }
 
   return (
-    <form className='add-form' onSubmit={onSubmit}>
-      <div className='form-control'>
+    <div className='signUp-form'>
+
+    <form onSubmit={onSubmit}>
         <label>Username</label>
         <input
           type='text'
@@ -30,32 +32,27 @@ const SignUp = ({onAdd}) => {
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
-      </div>
-      <div className='form-control'>
-        <label>Password</label>
+      
+        <label>Password </label>
         <input
-          type='text'
+          type='password'
           placeholder='Add Password'
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-      </div>
-
-      <div className='form-control'>
+      
         <label>Email</label>
         <input
-          type='text'
+          type='email'
           placeholder='Add Email'
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-      </div>
 
-      <input type='submit' value='Sign-Up' className='btn btn-block'
-         />
+      <input type='submit' value='Sign Up'/>
     </form>
+    </div>
   )
-
 }
 
 export default SignUp

@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react'
 import SignUp from './SignUp.js'
-import Header from './Header.js'
+//import Header from './Header.js'
+
+import './SignUp.css'
+//import '../JavaScript/Styles/Contact.css'
+
 
 
 const SignUpForm = () => {
@@ -24,12 +28,12 @@ const SignUpForm = () => {
   }
 
   //Fetch user
-  const fetchUser = async (id) => {
-    const res = await fetch(`http://localhost:7000/users/${id}`)
-    const data = await res.json()
+  // const fetchUser = async (id) => {
+  //   const res = await fetch(`http://localhost:7000/users/${id}`)
+  //   const data = await res.json()
 
-    return data
-  }
+  //   return data
+  // }
 
   // Add User
   const addUser = async (user) => {
@@ -47,7 +51,8 @@ const SignUpForm = () => {
   }
   return (
     <div className='container'>
-      <Header />
+      
+      <h1 className="signUp"><i class="fas fa-paper-plane"></i>Sign Up</h1>
 
       <SignUp onAdd={addUser} />
 

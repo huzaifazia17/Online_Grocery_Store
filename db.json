@@ -1,46 +1,10 @@
 {
   "users": [
     {
-      "username": "zubxxr",
-      "password": "sadsad123",
-      "email": "zubxxr@gmail.com",
+      "username": "sdsada",
+      "password": "sadsadsa",
+      "email": "dsads@gmadsa.cpm",
       "id": 1
-    },
-    {
-      "username": "sadsads",
-      "password": "sadsa123",
-      "email": "sadsadas@gmail.com",
-      "id": 2
-    },
-    {
-      "username": "d",
-      "password": "d",
-      "email": "d",
-      "id": 3
-    },
-    {
-      "username": "hn",
-      "password": "n",
-      "email": "n",
-      "id": 4
-    },
-    {
-      "username": "huziafa",
-      "password": "yeet",
-      "email": "wussup",
-      "id": 5
-    },
-    {
-      "username": "Huzaifa Zia",
-      "password": "potatot",
-      "email": "ziahuzaifa123@gmail.com",
-      "id": 6
-    },
-    {
-      "username": "cool",
-      "password": "cool",
-      "email": "cool",
-      "id": 7
     }
   ]
 }
