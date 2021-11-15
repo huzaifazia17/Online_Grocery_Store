@@ -3,7 +3,6 @@
     width: 25%;
     padding: 20px;
     background-color: lightskyblue;
-    border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 2%; /* Add a top margin */
@@ -14,7 +13,6 @@
 
 .description{
     padding:25px;
-    background: lightcoral;
     float: right;
     width: 45%;
     border-radius: 4px;
@@ -30,7 +28,7 @@
 .staff, .about{
     text-align: center;
     font-style: italic;
-    background: linear-gradient(90deg, rgba(162,153,182,1) 1%, rgba(127,151,163,1) 47%, rgba(194,232,240,1) 86%);
+    background: linear-gradient(90deg, rgba(194,232,240,1) 1%, rgba(127,151,163,1) 47%, rgba(162,153,182,1) 86% );
     float: right;
     width: 70%;
     border-radius: 4px;

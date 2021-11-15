@@ -1,0 +1,41 @@
+.howto-container{
+    background: linear-gradient(90deg, rgba(162, 153, 182, 0.198) 1%, rgba(127, 151, 163, 0.287) 47%, rgba(194, 232, 240, 0.253) 86%),url('../images/howto.jpg') center center/cover no-repeat;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    object-fit: contain;
+    justify-content:center;
+    background-attachment: fixed;
+}
+
+.howto-container h1{
+    padding-top: 30px;
+    margin-top: 30px;
+    transform: translateY(-20%);
+    font-family: 'Times New Roman', Times, serif;
+    color: #1b404b;
+    font-size: 40px;
+    
+}
+
+
+.howto-list{
+    list-style: none;
+    padding-top: 20px;
+    display:inline-flex;
+}
+.howto-list li{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1b404b;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.howto-list img{
+    padding-right: 80px;
+}
+.wordlist{
+    transform: translateY(30%);
+}
