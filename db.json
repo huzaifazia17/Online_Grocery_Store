@@ -5,6 +5,12 @@
       "password": "sadsadsa",
       "email": "dsads@gmadsa.cpm",
       "id": 1
+    },
+    {
+      "username": "mama",
+      "password": "mia",
+      "email": "hey@gmail.com",
+      "id": 2
     }
   ]
 }
