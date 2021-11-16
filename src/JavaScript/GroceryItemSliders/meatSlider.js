@@ -1,4 +1,4 @@
-import '../Styles/meatSlider.css';
+import '../../Styles/meatSlider.css';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -16,7 +16,7 @@ SwiperCore.use([Pagination]);
 
 const meatSlider = () => {
     return (
-        <div>
+        <div >
             <div className="meat-swiper-container">
                 <div className="title">
                     <h1>Meat Items</h1>

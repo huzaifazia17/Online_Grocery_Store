@@ -1,4 +1,5 @@
-import '../Styles/vegSlider.css';
+import React from 'react'
+import '../../Styles/drinksSlider.css';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,13 +16,14 @@ import SwiperCore, {
 // install Swiper modules
 SwiperCore.use([Pagination]);
 
-const vegSlider = () => {
+
+const drinksSlider = () => {
     return (
         <div>
-            <div>
-                <div className="veg-swiper-container">
+            <div >
+                <div className="drink-swiper-container">
                     <div className="title">
-                        <h1>Vegetable Items</h1>
+                        <h1>Drink Items</h1>
                     </div>
                     <Swiper slidesPerView={3} spaceBetween={30} pagination={{
                         "clickable": true
@@ -34,4 +36,4 @@ const vegSlider = () => {
     )
 }
 
-export default vegSlider;
+export default drinksSlider

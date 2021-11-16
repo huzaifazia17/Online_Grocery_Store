@@ -1,23 +1,23 @@
 .title{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size:70px;
     font-family: 'Estonia', cursive;
     color: rgb(33, 29, 87);
 }
 .swiper-container{
     height:70vh;
-    margin-top: 30px;
-    margin-bottom: 30px;
+
     z-index: 0 !important;
 }
 
-body {
-  background: rgb(247, 242, 242);
+.veg-swiper-container {
+  background: rgb(206, 15, 15);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
-  margin: 0;
-  padding: 0;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .swiper {
