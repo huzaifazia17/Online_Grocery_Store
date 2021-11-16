@@ -50,20 +50,20 @@ const About = () => {
                 </p>
             </div>
 
+            <div className="zubair-img">
+            </div>
             <div className="zubair">
                 <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for 
                     my Web Programming class.
                 </p>
             </div>
-            <div className="zubair-img">
-            </div>
 
+            <div className="ziyad-img">
+            </div>
             <div className="ziyad">
             <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for 
                     my Web Programming class.
                 </p>
-            </div>
-            <div className="ziyad-img">
             </div>
 
         </div>
