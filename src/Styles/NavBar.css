@@ -9,8 +9,9 @@
     font-family: 'Abhaya Libre', serif;
     text-decoration: none;
     position: -webkit-sticky; /* Safari */
-	position: sticky;
+	position:sticky;
 	top: 0;
+    z-index: 1 !important;
 
 }
 
