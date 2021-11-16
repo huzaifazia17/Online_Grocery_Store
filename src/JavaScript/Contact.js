@@ -50,7 +50,8 @@ const Contact = () => {
 
                 </form>
             </div>
-            <div className="dissapear">
+            
+            <div className="dissappear">
                 <p>T</p>
                 <p>T</p>
                 <p>T</p>
@@ -58,8 +59,6 @@ const Contact = () => {
                 <p>T</p>
 
             </div>
-
-
         </div>
 
     )

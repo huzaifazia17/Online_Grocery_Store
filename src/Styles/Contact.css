@@ -10,6 +10,11 @@
     color: rgb(63, 63, 129);
 }
 
+.dissappear{
+    color: #ebe1ec;
+
+}
+
 .questions{
     font-size: 20px;
     text-align: center;
@@ -27,24 +32,24 @@ p{
 
 .contact-form
 {
-        padding:25px;
-        float: right;
-        width: 45%;
-        border-radius: 4px;
-        background-color: #CBC3E3;
-        padding: 20px;
-        margin-top: 2%;
-        margin-bottom: 5%;
-        margin-right: 15%;
-        display: flex;
-        box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
-        box-sizing: border-box;
+    padding:25px;
+    float: right;
+    width: 43%;
+    border-radius: 4px;
+    background-color: #CBC3E3;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    display: flex;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    box-sizing: border-box;
 }
 
 .contact-info
 {
     float: left;
-    width: 25%;
+    width: 27%;
     padding: 20px;
     background-color: lightskyblue;
     border-radius: 4px; 
@@ -55,7 +60,7 @@ p{
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1350px) {
     .contact-info, .contact-form{
         float: none;
         width:auto;
@@ -67,7 +72,7 @@ p{
 @media only screen and (min-width: 1450px) {
     .contact-info{
         float: left;
-        min-height: 29em;
+        min-height: 29.2em;
     }
 }
 

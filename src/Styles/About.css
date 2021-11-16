@@ -1,6 +1,7 @@
 .img-section{
     float: left;
     width: 25%;
+    height: 20em;
     padding: 20px;
     background-color: lightskyblue;
     border-radius: 4px; /* Rounded borders */
@@ -9,23 +10,26 @@
     margin-bottom: 5%; /* Bottom margin */
     margin-left: 15%;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    background:url('../images/H2Z2StoreLayout.jpg') center center/cover no-repeat;
 }
 
 .description{
-    padding:25px;
+    font-family: 'Abhaya Libre', serif;
     float: right;
     width: 45%;
+    height: 20em;
     border-radius: 4px;
     background-color: #CBC3E3;
     padding: 20px;
     margin-top: 2%; /* Add a top margin */
     margin-bottom: 5%; /* Bottom margin */
     margin-right: 15%;
-    display: flex;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    box-sizing: border-box;
 }
 
 .staff, .about{
+    font-family: 'Abhaya Libre', serif;
     text-align: center;
     font-style: italic;
     background: linear-gradient(90deg, rgba(194,232,240,1) 1%, rgba(127,151,163,1) 47%, rgba(162,153,182,1) 86% );
@@ -42,6 +46,8 @@
 .huzaifa-img, .hanzalah-img, .zubair-img, .ziyad-img{
     float: left;
     width: 20%;
+    min-width: 20%;
+    height: 10em;
     padding: 20px;
     background-color: lightskyblue;
     border-radius: 4px; /* Rounded borders */
@@ -51,11 +57,13 @@
     margin-left: 15%;
     margin-right: 2.5%;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    overflow: hidden;
 }
 
 .huzaifa, .hanzalah, .zubair, .ziyad{
     float: right;
     width: 45%;
+    height: 10em;
     border-radius: 4px;
     background-color: #CBC3E3;
     padding: 20px;
@@ -65,4 +73,39 @@
     margin-left: 2.5%;
     display: flex;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.huzaifa-img{
+    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+}
+.hanzalah-img{
+    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+}
+.zubair-img{
+    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+}
+.ziyad-img{
+    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+}
+
+@media only screen and (max-width: 1350px) {
+    .description, .img-section, .about, .staff{
+        float: none;
+        width:auto;
+        margin: 10%;
+        box-sizing: border-box;
+    }
+}
+@media only screen and (max-width: 900px) {
+    
+    .description{
+        height: 25em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    
+    .description{
+        height: 32em;
+    }
 }

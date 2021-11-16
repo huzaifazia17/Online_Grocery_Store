@@ -11,11 +11,21 @@ const About = () => {
             </div>
 
             <div className="img-section">
-                <p>Display img</p>
             </div>
 
             <div className="description">
-                <p>Company description</p>
+                <p>H2Z2 is a online grocery store that allows its customers to order any and all types of foods and vegetables that everyone needs on a daily basis. 
+                    At H2Z2 we put our customers above all else and will do anything to ensure that customers have the easiest and fattest way to shop for their daily groceries that will be delivered right to their doorstep.
+                    H2Z2 gets fresh vegetables and fruits every single day to endure that what we sell to our customers in only the best of the best. Our bakery goods are made fresh every single morning andmore throuout the day for 24/7 freshness.
+                    As a Web Programming project this website was created to be an engaging website where customers can interact with. This website has a contact us page and signup/login page that 
+                    is connected to a database that saves all the information that is inputted and also shows the message if someone used the contact us page. 
+                </p>
+
+                <p></p>
+
+                <p>
+                    Thank you for shopping with H2Z2 Groceries!
+                </p>
             </div>
 
             <div className="staff">
@@ -25,31 +35,35 @@ const About = () => {
             {/*Staff descriptions below*/ }
 
             <div className="huzaifa-img">
-                <p>huzaifa img</p>
             </div>
             <div className="huzaifa">
-                <p>my name is huzaifa</p>
+                <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for 
+                    my Web Programming class.
+                </p>
             </div>
 
             <div className="hanzalah-img">
-                <p>hanzalah img</p>
             </div>
             <div className="hanzalah">
-                <p>my name is hanzalah</p>
+                <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for 
+                    my Web Programming class.
+                </p>
             </div>
 
             <div className="zubair">
-                <p>my name is huzaifa</p>
+                <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for 
+                    my Web Programming class.
+                </p>
             </div>
             <div className="zubair-img">
-                <p>my name is huzaifa</p>
             </div>
 
             <div className="ziyad">
-                <p>my name is huzaifa</p>
+            <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for 
+                    my Web Programming class.
+                </p>
             </div>
             <div className="ziyad-img">
-                <p>my name is huzaifa</p>
             </div>
 
         </div>
