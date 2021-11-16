@@ -10,6 +10,7 @@ import SignIn from './JavaScript/SignUp/Login.js'
 import LoginForm from './JavaScript/SignUp/LoginForm.js'
 import Login from './JavaScript/SignUp/Login.js'
 
+
 const App = () => {
 
   return (
@@ -19,7 +20,7 @@ const App = () => {
       <div className="App">
         {/*Navbar Component */}
         <NavBar />
-        <Routes>
+        <Routes className="routes-container">
           <Route path="/" exact element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/SignUp" element={<SignUpForm />} />

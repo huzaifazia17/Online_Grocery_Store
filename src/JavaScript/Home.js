@@ -1,23 +1,43 @@
-// Home.js will contain main page with all grocery items
 import React, { Component } from 'react';
 import '../Styles/Home.css';
 import Hero from './hero';
 import HowTo from './HowTo';
-
+import Meat from './meatSlider';
 
 const Home = () => {
     return (
         <div>
             <Hero></Hero>
-            <HowTo />
-            <h1>ya</h1>
-            <h1>ya</h1>
-            <h1>ya</h1>
-            <h1>ya</h1>
-            <h1>ya</h1>
-            <h1>ya</h1>
-            <h1>ya</h1>
-            <h1>ya</h1>
+            <HowTo> </HowTo>
+            <Meat />
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
+            <h1>yeet</h1>
         </div>
     )
 
