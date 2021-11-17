@@ -60,7 +60,7 @@ p{
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1450px) {
     .contact-info, .contact-form{
         float: none;
         width:auto;
