@@ -1,0 +1,72 @@
+.meat-container{
+    width: 500px;
+    height:600px;
+    align-content: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: rgba(230, 224, 224, 0.226);
+    box-shadow: 10px 10px 10px 10px rgb(233, 212, 117);
+    
+}
+.meat-container p{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.meat-container h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #1b404b;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.top-image img{
+    height: 300px;
+    width:460px;
+}
+
+.star{
+    width:20px;
+    height: 20px;
+}
+.bottom-row{
+    list-style: none;
+    display:inline-flex;
+    padding-top: 40px;
+    padding-left: 10px;
+    transform: translateY(-20%);
+}
+.price{
+    margin-right: 30px;
+    font-family: 'Estonia', cursive;
+    font-weight:1000;
+    font-size: 50px;
+    color: RED;
+    transform: translateY(-20%);
+}
+
+.addToCart{
+    height:40px;
+    width:110px;
+    border-radius: 20px;
+    color: azure;
+    background-color: #1b404b;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.addToCart:hover{
+    height:40px;
+    width:110px;
+    border-radius: 20px;
+    color: #1b404b;
+    background-color: azure;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.override-gc{
+    height: 300px;
+    width:460px;
+}

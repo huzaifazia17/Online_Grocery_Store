@@ -7,7 +7,7 @@ import VegSlider from './GroceryItemSliders/vegSlider';
 import FruitSlider from './GroceryItemSliders/fruitsSlider';
 import BakedSlider from './GroceryItemSliders/bakedSlider';
 import DrinkSlider from './GroceryItemSliders/drinksSlider';
-
+import A5Wagyu from './GroceryComponents/MeatItems/A5Wagyu';
 
 const Home = () => {
     return (
