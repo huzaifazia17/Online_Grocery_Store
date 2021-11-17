@@ -11,7 +11,7 @@
 }
 
 .veg-swiper-container {
-  background: rgb(206, 15, 15);
+  background: rgb(247, 242, 242);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -29,7 +29,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: rgb(247, 242, 242);
   display: flex;
   justify-content: center;
   align-items: center;

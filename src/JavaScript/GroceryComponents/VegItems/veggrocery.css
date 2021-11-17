@@ -1,20 +1,20 @@
-.meat-container{
+.veg-container{
     width: 500px;
     height:600px;
     align-content: center;
     padding: 20px 20px 20px 20px;
     border-radius: 25px;
     box-sizing: border-box;
-    background-color: rgba(230, 224, 224, 0.226);
+    background-color: rgba(204, 6, 6, 0.089);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
 }
-.meat-container p{
+.veg-container p{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
-.meat-container h1{
+.veg-container h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: #1b404b;
