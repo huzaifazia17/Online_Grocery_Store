@@ -6,7 +6,7 @@
     border-radius: 25px;
     box-sizing: border-box;
     background-color: rgba(204, 6, 6, 0.089);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(38, 57, 77) -10px 20px 30px -10px;
     
 }
 .veg-container p{
