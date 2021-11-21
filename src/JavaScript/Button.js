@@ -12,7 +12,7 @@ const SIZES = [
     'byn--large'
 ]
 
-export const Button = ({
+export const Buttons = ({
     children,
     type,
     onClick,

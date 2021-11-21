@@ -10,7 +10,7 @@
     text-decoration: none;
     position: -webkit-sticky; /* Safari */
 	position:sticky;
-	top: 0;
+	top: 0; 
     z-index: 1 !important;
 
 }
@@ -146,7 +146,7 @@
 
     }
 
-    Button {
+    .upperbutton {
         display: none;
     }
 

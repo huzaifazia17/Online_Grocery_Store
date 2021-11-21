@@ -1,7 +1,7 @@
 import '../Styles/NavBar.css'
 import React, { Component, useState } from 'react';
 import { NavItems } from "./NavItems";
-import { Button } from './Button';
+import { Buttons } from './Button';
 
 class NavBar extends Component {
     state = { clicked: false }
@@ -29,7 +29,9 @@ class NavBar extends Component {
                         )
                     })}
                 </ul>
-                <Button>CART</Button>
+                <div className="upperbutton">
+                    <Buttons >CART</Buttons>
+                </div>
             </nav>
 
         )

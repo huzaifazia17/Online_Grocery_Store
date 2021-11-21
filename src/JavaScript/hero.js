@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from './Button.js';
+import { Buttons } from './Button.js';
 import '../Styles/hero.css';
 
 const Hero = () => {
@@ -9,8 +9,8 @@ const Hero = () => {
             <h1>HELLO SUPER QUICK GROCERY DOOR DELIEVRIES</h1>
             <h3>{"\n"} </h3>
             <div className="hero-btns">
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--medium'>START SHOPPING</Button>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--medium'>START POOPING</Button>
+                <Buttons className='btns' buttonStyle='btn--primary' buttonSize='btn--medium'>START SHOPPING</Buttons>
+                <Buttons className='btns' buttonStyle='btn--outline' buttonSize='btn--medium'>START POOPING</Buttons>
             </div>
 
         </div>
