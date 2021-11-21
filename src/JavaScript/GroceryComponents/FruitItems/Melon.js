@@ -1,15 +1,15 @@
 import React from 'react'
-import './veggrocery.css';
-import Ava from '../../../images/groceryItemImages/Vegetables/Avocado.jpg';
+import './fruitgrocery.css';
+import Melonimg from '../../../images/groceryItemImages/Fruits/melon.jpg';
 
-const Avacado = () => {
+const Melon = () => {
     return (
-        <div className="veg-container">
+        <div className="fruit-container">
             <div>
-                <h1>Avocado</h1>
+                <h1>Melon</h1>
             </div>
             <div className="top-image ">
-                <img src={Ava}></img>
+                <img src={Melonimg}></img>
             </div>
             <p>This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan.This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan. <a href="#">Read More</a></p>
             <ul className="bottom-row">
@@ -20,4 +20,5 @@ const Avacado = () => {
     )
 }
 
-export default Avacado;
+export default Melon;
+

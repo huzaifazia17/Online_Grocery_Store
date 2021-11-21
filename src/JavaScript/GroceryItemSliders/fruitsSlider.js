@@ -1,5 +1,11 @@
 import React from 'react'
 import '../../Styles/fruitSlider.css';
+import Apple from '../GroceryComponents/FruitItems/Apple';
+import Pear from '../GroceryComponents/FruitItems/Pears';
+import BlackBerry from '../GroceryComponents/FruitItems/BlackBerry';
+import BlueBerry from '../GroceryComponents/FruitItems/BlueBerry';
+import Watermelon from '../GroceryComponents/FruitItems/Watermelon';
+import Melon from '../GroceryComponents/FruitItems/Melon';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,7 +30,7 @@ const fruitsSlider = () => {
                     <Swiper slidesPerView={3} spaceBetween={30} pagination={{
                         "clickable": true
                     }} className="mySwiper">
-                        <SwiperSlide>Slide 1</SwiperSlide><SwiperSlide>Slide 2</SwiperSlide><SwiperSlide>Slide 3</SwiperSlide><SwiperSlide>Slide 4</SwiperSlide><SwiperSlide>Slide 5</SwiperSlide><SwiperSlide>Slide 6</SwiperSlide><SwiperSlide>Slide 7</SwiperSlide><SwiperSlide>Slide 8</SwiperSlide><SwiperSlide>Slide 9</SwiperSlide>
+                        <SwiperSlide><Apple /></SwiperSlide><SwiperSlide><Pear /></SwiperSlide><SwiperSlide><BlackBerry /></SwiperSlide><SwiperSlide><BlueBerry /></SwiperSlide><SwiperSlide><Watermelon /></SwiperSlide><SwiperSlide><Melon /></SwiperSlide>
                     </Swiper>
                 </div>
             </div>

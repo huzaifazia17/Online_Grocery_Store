@@ -1,6 +1,10 @@
 import '../../Styles/vegSlider.css';
 import Lettuce from '../GroceryComponents/VegItems/Lettuce';
 import Cucumber from '../GroceryComponents/VegItems/Cucumber';
+import Broccoli from '../GroceryComponents/VegItems/Broccoli';
+import Avacado from '../GroceryComponents/VegItems/Avacado';
+import Bean from '../GroceryComponents/VegItems/Bean';
+import Asparagus from '../GroceryComponents/VegItems/Asparagus';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -27,7 +31,7 @@ const vegSlider = () => {
                     <Swiper slidesPerView={3} spaceBetween={30} pagination={{
                         "clickable": true
                     }} className="mySwiper">
-                        <SwiperSlide><Lettuce /></SwiperSlide><SwiperSlide><Cucumber /></SwiperSlide><SwiperSlide>Slide 3</SwiperSlide><SwiperSlide>Slide 4</SwiperSlide><SwiperSlide>Slide 5</SwiperSlide><SwiperSlide>Slide 6</SwiperSlide><SwiperSlide>Slide 7</SwiperSlide><SwiperSlide>Slide 8</SwiperSlide><SwiperSlide>Slide 9</SwiperSlide>
+                        <SwiperSlide><Asparagus /></SwiperSlide><SwiperSlide><Avacado /></SwiperSlide><SwiperSlide><Bean /></SwiperSlide><SwiperSlide><Broccoli /></SwiperSlide><SwiperSlide><Cucumber /></SwiperSlide><SwiperSlide><Lettuce /></SwiperSlide>
                     </Swiper>
                 </div>
             </div>

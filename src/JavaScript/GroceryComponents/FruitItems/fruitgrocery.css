@@ -1,20 +1,21 @@
-.veg-container{
+.fruit-container{
     width: 92%;
     height:92%;
     align-content: center;
     padding: 20px 20px 20px 20px;
     border-radius: 25px;
     box-sizing: border-box;
-    background: rgb(247, 242, 242);
-    box-shadow: rgb(38, 57, 77) -10px 20px 30px -10px;
+    background-color: rgba(230, 224, 224, 0.226);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
 }
-.veg-container p{
+.fruit-container p{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 100%;
 }
-.veg-container h1{
+.fruit-container h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: #1b404b;
@@ -66,10 +67,6 @@
     border: none;
     cursor: pointer;
 }
-.override-gc{
-    height: 50%;
-    width:92%;
-}
 
 @media screen and (max-width:980px) {
     .bottom-row{
@@ -81,6 +78,7 @@
         font-weight:1000;
         font-size: 30px;
         color: RED;
+
     }
     
     .addToCart{
@@ -103,7 +101,7 @@
         border: none;
         cursor: pointer;
     }
-    .veg-container p{
+    .fruit-container p{
         font-style: italic;
         font-family: 'Times New Roman', Times, serif;
         text-align: center;

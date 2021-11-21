@@ -8,7 +8,7 @@ const Lettuce = () => {
             <div>
                 <h1>Cucumber</h1>
             </div>
-            <div className="top-image override-gc">
+            <div className="top-image ">
                 <img src={Cucumberimg}></img>
             </div>
             <p>This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan.This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan. <a href="#">Read More</a></p>
