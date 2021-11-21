@@ -16,7 +16,7 @@ const Ribs = () => {
 
             <ul className="bottom-row">
                 <li className="price"><span>&#36;</span>74.99</li>
-                <li><button className="addToCart">ADD TO CART</button></li>
+                <li><button className="addToCart">VIEW ITEM</button></li>
             </ul>
         </div>
     )

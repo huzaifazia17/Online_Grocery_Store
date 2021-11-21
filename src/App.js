@@ -3,7 +3,7 @@ import NavBar from './JavaScript/NavBar.js'
 import Home from './JavaScript/Home.js'
 import About from './JavaScript/About.js'
 import Contact from './JavaScript/Contact.js'
-import Cart from './JavaScript/Cart.js'
+import Cart from './JavaScript/CartComponents/Cart/Cart.js'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SignUpForm from './JavaScript/SignUp/SignUpForm.js'
 import SignIn from './JavaScript/SignUp/Login.js'
