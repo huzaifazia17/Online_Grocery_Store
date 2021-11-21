@@ -1,6 +1,11 @@
 import React from 'react'
 import '../../Styles/drinksSlider.css';
-
+import ChocolateMilk from '../GroceryComponents/DrinkItems/ChocolateMilk';
+import Coke from '../GroceryComponents/DrinkItems/Coke';
+import Fanta from '../GroceryComponents/DrinkItems/Fanta';
+import Tea from '../GroceryComponents/DrinkItems/Tea';
+import OJ from '../GroceryComponents/DrinkItems/OJ';
+import Pepsi from '../GroceryComponents/DrinkItems/Pepsi';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -28,7 +33,7 @@ const drinksSlider = () => {
                     <Swiper slidesPerView={3} spaceBetween={30} pagination={{
                         "clickable": true
                     }} className="mySwiper">
-                        <SwiperSlide>Slide 1</SwiperSlide><SwiperSlide>Slide 2</SwiperSlide><SwiperSlide>Slide 3</SwiperSlide><SwiperSlide>Slide 4</SwiperSlide><SwiperSlide>Slide 5</SwiperSlide><SwiperSlide>Slide 6</SwiperSlide><SwiperSlide>Slide 7</SwiperSlide><SwiperSlide>Slide 8</SwiperSlide><SwiperSlide>Slide 9</SwiperSlide>
+                        <SwiperSlide><ChocolateMilk /></SwiperSlide><SwiperSlide><OJ /></SwiperSlide><SwiperSlide><Tea /></SwiperSlide><SwiperSlide><Pepsi /></SwiperSlide><SwiperSlide><Coke /></SwiperSlide><SwiperSlide><Fanta /></SwiperSlide>
                     </Swiper>
                 </div>
             </div>

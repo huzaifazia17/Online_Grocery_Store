@@ -1,0 +1,110 @@
+.drink-container{
+    width: 92%;
+    height:92%;
+    align-content: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: rgba(230, 224, 224, 0.226);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.drink-container p{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 100%;
+}
+.drink-container h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #1b404b;
+    font-size: 160%;
+    padding-bottom: 10px;
+}
+.top-image img{
+    height: 50%;
+    width:92%;
+}
+
+.star{
+    width:20px;
+    height: 20px;
+}
+.bottom-row{
+    list-style: none;
+    display:inline-flex;
+    padding-top: 40px;
+    padding-left: 10px;
+    transform: translateY(-35%);
+}
+.price{
+    margin-right: 30px;
+    font-family: 'Estonia', cursive;
+    font-weight:1000;
+    font-size: 50px;
+    color: RED;
+    transform: translateY(-35%);
+}
+
+.addToCart{
+    height:60%;
+    width:110px;
+    border-radius: 20px;
+    color: azure;
+    background-color: #1b404b;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.addToCart:hover{
+    height:60%;
+    width:110px;
+    border-radius: 20px;
+    color: #1b404b;
+    background-color: azure;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:980px) {
+    .bottom-row{
+        list-style: none;
+
+    }
+    .price{
+        font-family: 'Estonia', cursive;
+        font-weight:1000;
+        font-size: 30px;
+        color: RED;
+
+    }
+    
+    .addToCart{
+        height:80%;
+        width:70px;
+        border-radius: 20px;
+        color: azure;
+        background-color: #1b404b;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    .addToCart:hover{
+        height:80%;
+        width:70px;
+        border-radius: 20px;
+        color: #1b404b;
+        background-color: azure;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    .drink-container p{
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 90%;
+    }
+}
