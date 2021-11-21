@@ -1,6 +1,11 @@
 import React from 'react'
 import '../../Styles/bakedSlider.css';
-
+import Bagels from '../GroceryComponents/BakedItems/Bagels';
+import Bread from '../GroceryComponents/BakedItems/Bread';
+import Brioche from '../GroceryComponents/BakedItems/Brioche';
+import Buns from '../GroceryComponents/BakedItems/Buns';
+import Doughnuts from '../GroceryComponents/BakedItems/Doughnuts';
+import Cookies from '../GroceryComponents/BakedItems/Cookies';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -25,7 +30,7 @@ const bakedSlider = () => {
                     <Swiper slidesPerView={3} spaceBetween={30} pagination={{
                         "clickable": true
                     }} className="mySwiper">
-                        <SwiperSlide>Slide 1</SwiperSlide><SwiperSlide>Slide 2</SwiperSlide><SwiperSlide>Slide 3</SwiperSlide><SwiperSlide>Slide 4</SwiperSlide><SwiperSlide>Slide 5</SwiperSlide><SwiperSlide>Slide 6</SwiperSlide><SwiperSlide>Slide 7</SwiperSlide><SwiperSlide>Slide 8</SwiperSlide><SwiperSlide>Slide 9</SwiperSlide>
+                        <SwiperSlide><Cookies /></SwiperSlide><SwiperSlide><Doughnuts /></SwiperSlide><SwiperSlide><Bagels /></SwiperSlide><SwiperSlide><Brioche /></SwiperSlide><SwiperSlide><Buns /></SwiperSlide><SwiperSlide><Bread /></SwiperSlide>
                     </Swiper>
                 </div>
             </div>
