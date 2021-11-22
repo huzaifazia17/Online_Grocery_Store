@@ -37,6 +37,7 @@ const RegistrationTester = () => {
         validationSchema={validationSchema}
       >
         <Form className="formContainer">
+        <h1>Sign Up for 20% OFF your next purchase!</h1>
           
           <label>Username: </label>
           <ErrorMessage name="username" component="span" />
