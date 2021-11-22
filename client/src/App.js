@@ -1,9 +1,9 @@
 import './Styles/App.css';
 import NavBar from './NavigationBar/NavBar.js'
-import Home from './JavaScript/Home.js'
-import About from './JavaScript/About.js'
-import Contact from './JavaScript/Contact.js'
-import Cart from './JavaScript/Cart.js'
+import Home from './components/Home/Home.js'
+import About from './components/About/About.js'
+import Contact from './components/Contact/Contact.js'
+import Cart from './components/Cart/Cart.js'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import SignUpForm from './JavaScript/SignUp/SignUpForm.js'
 //import SignIn from './JavaScript/SignUp/Login.js'

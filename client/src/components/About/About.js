@@ -1,5 +1,5 @@
 // About.js will contain the about section
-import '../Styles/About.css';
+import '../About/About.css';
 
 
 const About = () => {

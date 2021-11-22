@@ -1,7 +1,7 @@
 import './NavBar.css'
 import React, { Component, useState } from 'react';
 import { NavItems } from "./NavItems";
-import { Buttons } from '../JavaScript/Button';
+import { Buttons } from '../components/Button/Button';
 import { Link } from "react-router-dom";
 class NavBar extends Component {
     
@@ -38,10 +38,6 @@ class NavBar extends Component {
                 <div className="upperbutton">
                     <Link to="/Cart">
                         <Buttons >CART</Buttons>
-                    </Link>
-
-                    <Link to="/Logout">
-                        <Buttons> PROFILE</Buttons>
                     </Link>
 
                 </div>
