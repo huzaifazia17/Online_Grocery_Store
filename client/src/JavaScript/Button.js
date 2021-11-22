@@ -24,11 +24,8 @@ export const Buttons = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-        <a href='/Cart'>
-            <button className={`btn1 ${checkButtonStyle} ${checkButtonSize} onClick={onClick} type={type}`}>
-                {children}
-            </button>
-        </a>
-
+        <button className={`btn1 ${checkButtonStyle} ${checkButtonSize} onClick={onClick} type={type}`}>
+            {children}
+        </button>
     )
 }

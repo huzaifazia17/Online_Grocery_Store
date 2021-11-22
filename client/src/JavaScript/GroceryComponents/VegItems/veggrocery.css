@@ -13,6 +13,7 @@
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 90%;
 }
 .veg-container h1{
     font-family: 'Times New Roman', Times, serif;
@@ -23,7 +24,7 @@
 }
 .top-image img{
     height: 50%;
-    width:92%;
+    width:100%;
 }
 
 .star{
@@ -35,7 +36,7 @@
     display:inline-flex;
     padding-top: 40px;
     padding-left: 10px;
-    transform: translateY(-35%);
+    transform: translateY(-39%);
 }
 .price{
     margin-right: 30px;
@@ -43,7 +44,7 @@
     font-weight:1000;
     font-size: 50px;
     color: RED;
-    transform: translateY(-35%);
+    transform: translateY(-39%);
 }
 
 .addToCart{

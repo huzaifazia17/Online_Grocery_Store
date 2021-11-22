@@ -10,7 +10,7 @@ const HowTo = () => {
             <div>
                 <ul className="howto-list">
                     <li><img src={img}></img> </li>
-                    <li className="wordlist"><i class="fas fa-scroll"></i> Scroll down and choose your items from our wide selection!
+                    <li className="wordlist"><i class="fas fa-scroll"></i> Scroll down and view our items from our wide selection!
                         <br></br><br></br><i class="fas fa-shopping-cart"></i> Choose how many you want and add them to your cart!
                         <br></br><br></br><i class="fas fa-money-check-alt"></i> Add some more items and then go to your cart and checkout!
                     </li>
