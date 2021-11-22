@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../Styles/fruitSlider.css';
-import Apple from '../GroceryComponents/FruitItems/Apple';
-import Pear from '../GroceryComponents/FruitItems/Pears';
-import BlackBerry from '../GroceryComponents/FruitItems/BlackBerry';
-import BlueBerry from '../GroceryComponents/FruitItems/BlueBerry';
-import Watermelon from '../GroceryComponents/FruitItems/Watermelon';
-import Melon from '../GroceryComponents/FruitItems/Melon';
+import '../../Sliders/fruitSlider.css';
+import Apple from '../../../JavaScript/GroceryComponents/FruitItems/Apple';
+import Pear from '../../../JavaScript/GroceryComponents/FruitItems/Pears'
+import BlackBerry from '../../../JavaScript/GroceryComponents/FruitItems/BlackBerry';
+import BlueBerry from '../../../JavaScript/GroceryComponents/FruitItems/BlueBerry';
+import Watermelon from '../../../JavaScript/GroceryComponents/FruitItems/Watermelon';
+import Melon from '../../../JavaScript/GroceryComponents/FruitItems/Melon';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";

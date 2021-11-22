@@ -9,7 +9,8 @@
     margin-bottom: 5%; /* Bottom margin */
     margin-left: 15%;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
-    background:url('../images/H2Z2StoreLayout.jpg') center center/cover ;
+    background: url('../../images/H2Z2StoreLayout.jpg') center center/cover ;
+    
 }
 
 .description{
@@ -73,16 +74,16 @@
 }
 
 .huzaifa-img{
-    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+    background:url('../../images/hanzalahBitmoji.jpg') top center/cover;
 }
 .hanzalah-img{
-    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+    background:url('../../images/hanzalahBitmoji.jpg') top center/cover;
 }
 .zubair-img{
-    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+    background:url('../../images/hanzalahBitmoji.jpg') top center/cover;
 }
 .ziyad-img{
-    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+    background:url('../../images/hanzalahBitmoji.jpg') top center/cover;
 }
 
 @media only screen and (max-width: 1350px) {
