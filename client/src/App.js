@@ -26,28 +26,28 @@ const App = () => {
   return (
 
 
-<AuthContext.Provider value ={{authState, setAuthState}}>
-    <Router>
+    <AuthContext.Provider value={{ authState, setAuthState }}>
+      <Router>
 
-      <div className="App">
-        
-        
-        {/*Navbar Component */}
-        <NavBar />
-        <Routes className="routes-container">
-          <Route path="/" exact element={<Home />} />
-          <Route path="/About" element={<About />} />
-          
-          <Route path="/RegistrationTester" element={<RegistrationTester />} />
+        <div className="App">
+
+
+          {/*Navbar Component */}
+          <NavBar />
+          <Routes className="routes-container">
+            <Route path="/" exact element={<Home />} />
+            <Route path="/About" element={<About />} />
+
+            <Route path="/RegistrationTester" element={<RegistrationTester />} />
             <Route path="/LoginTester" element={<LoginTester />} />
-      
-          <Route path="/Logout" element={<Logout />} />
 
-          <Route path="/ContactUs" element={<Contact />} />
-          <Route path="/Cart" element={<Cart />} />
-        </Routes>
-      </div>
-    </Router>
+            <Route path="/Logout" element={<Logout />} />
+
+            <Route path="/ContactUs" element={<Contact />} />
+            <Route path="/Cart" element={<Cart />} />
+          </Routes>
+        </div>
+      </Router>
     </AuthContext.Provider>
 
   );
