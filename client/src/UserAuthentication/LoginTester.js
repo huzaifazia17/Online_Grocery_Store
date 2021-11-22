@@ -1,7 +1,8 @@
 import { useState, useContext } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../../helpers/AuthContext";
+import { AuthContext } from "../helpers/AuthContext";
+import './SignUp.css'
 
 const LoginTester = () => {
     const [username, setUsername] = useState("");
@@ -23,8 +24,9 @@ const LoginTester = () => {
         })
     };
     return (
-        <div>
-            User: <input type="text"
+
+        <div className="login">
+            Username: <input type="text"
                 onChange={(event) => {
                     setUsername(event.target.value);
                 }}

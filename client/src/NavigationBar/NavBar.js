@@ -1,10 +1,10 @@
-import '../Styles/NavBar.css'
+import './NavBar.css'
 import React, { Component, useState } from 'react';
 import { NavItems } from "./NavItems";
-import { Buttons } from './Button';
+import { Buttons } from '../JavaScript/Button';
 import { Link } from "react-router-dom";
-
 class NavBar extends Component {
+    
     state = { clicked: false }
 
     handleClick = () => {
@@ -38,6 +38,10 @@ class NavBar extends Component {
                 <div className="upperbutton">
                     <Link to="/Cart">
                         <Buttons >CART</Buttons>
+                    </Link>
+
+                    <Link to="/Logout">
+                        <Buttons> PROFILE</Buttons>
                     </Link>
 
                 </div>

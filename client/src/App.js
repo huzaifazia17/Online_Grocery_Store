@@ -1,5 +1,5 @@
 import './Styles/App.css';
-import NavBar from './JavaScript/NavBar.js'
+import NavBar from './NavigationBar/NavBar.js'
 import Home from './JavaScript/Home.js'
 import About from './JavaScript/About.js'
 import Contact from './JavaScript/Contact.js'
@@ -9,9 +9,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import SignIn from './JavaScript/SignUp/Login.js'
 //import LoginForm from './JavaScript/SignUp/LoginForm.js'
 //import Login from './JavaScript/SignUp/Login.js'
-import RegistrationTester from './JavaScript/LoginOfficial/RegistrationTester';
-import LoginTester from './JavaScript/LoginOfficial/LoginTester';
-import Logout from './JavaScript/LoginOfficial/Logout';
+import RegistrationTester from './UserAuthentication/RegistrationTester';
+import LoginTester from './UserAuthentication/LoginTester';
+import Logout from './UserAuthentication/Logout';
 import { useState, useEffect } from "react";
 import { AuthContext } from './helpers/AuthContext';
 import axios from 'axios';
