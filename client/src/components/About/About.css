@@ -1,3 +1,4 @@
+<<<<<<< HEAD:client/src/Styles/About.css
 img{
     width: 100%;
     height: 100%;
@@ -8,6 +9,13 @@ img{
     justify-content:center;
 }
 
+=======
+.about-container{
+    background: red;
+    width:100%;
+    height: 100%;
+}
+>>>>>>> dc68e6e83c889418530c815ca61903c5434c3f92:client/src/components/About/About.css
 .img-section{
     float: left;
     width: 25%;
@@ -19,7 +27,8 @@ img{
     margin-bottom: 5%; /* Bottom margin */
     margin-left: 15%;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
-    background:url('../images/H2Z2StoreLayout.jpg') center center/cover ;
+    background: url('../../images/H2Z2StoreLayout.jpg') center center/cover ;
+    
 }
 
 .description{
@@ -83,16 +92,16 @@ img{
 }
 
 .huzaifa-img{
-    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+    background:url('../../images/hanzalahBitmoji.jpg') top center/cover;
 }
 .hanzalah-img{
-    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+    background:url('../../images/hanzalahBitmoji.jpg') top center/cover;
 }
 .zubair-img{
-    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+    background:url('../../images/hanzalahBitmoji.jpg') top center/cover;
 }
 .ziyad-img{
-    background:url('../images/hanzalahBitmoji.jpg') top center/cover;
+    background:url('../../images/hanzalahBitmoji.jpg') top center/cover;
 }
 
 @media only screen and (max-width: 1350px) {

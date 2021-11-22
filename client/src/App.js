@@ -1,9 +1,9 @@
 import './Styles/App.css';
 import NavBar from './NavigationBar/NavBar.js'
-import Home from './JavaScript/Home.js'
-import About from './JavaScript/About.js'
-import Contact from './JavaScript/Contact.js'
-import Cart from './JavaScript/Cart.js'
+import Home from './components/Home/Home.js'
+import About from './components/About/About.js'
+import Contact from './components/Contact/Contact.js'
+import Cart from './components/Cart/Cart.js'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import SignUpForm from './JavaScript/SignUp/SignUpForm.js'
 //import SignIn from './JavaScript/SignUp/Login.js'
@@ -26,28 +26,28 @@ const App = () => {
   return (
 
 
-<AuthContext.Provider value ={{authState, setAuthState}}>
-    <Router>
+    <AuthContext.Provider value={{ authState, setAuthState }}>
+      <Router>
 
-      <div className="App">
-        
-        
-        {/*Navbar Component */}
-        <NavBar />
-        <Routes className="routes-container">
-          <Route path="/" exact element={<Home />} />
-          <Route path="/About" element={<About />} />
-          
-          <Route path="/RegistrationTester" element={<RegistrationTester />} />
+        <div className="App">
+
+
+          {/*Navbar Component */}
+          <NavBar />
+          <Routes className="routes-container">
+            <Route path="/" exact element={<Home />} />
+            <Route path="/About" element={<About />} />
+
+            <Route path="/RegistrationTester" element={<RegistrationTester />} />
             <Route path="/LoginTester" element={<LoginTester />} />
-      
-          <Route path="/Logout" element={<Logout />} />
 
-          <Route path="/ContactUs" element={<Contact />} />
-          <Route path="/Cart" element={<Cart />} />
-        </Routes>
-      </div>
-    </Router>
+            <Route path="/Logout" element={<Logout />} />
+
+            <Route path="/ContactUs" element={<Contact />} />
+            <Route path="/Cart" element={<Cart />} />
+          </Routes>
+        </div>
+      </Router>
     </AuthContext.Provider>
 
   );

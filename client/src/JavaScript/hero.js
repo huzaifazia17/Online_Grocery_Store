@@ -1,5 +1,5 @@
 import React from 'react';
-import { Buttons } from './Button.js';
+import { Buttons } from '../components/Button/Button.js';
 import '../Styles/hero.css';
 
 const Hero = () => {
