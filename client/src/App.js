@@ -15,6 +15,7 @@ import Logout from './UserAuthentication/Logout';
 import { useState, useEffect } from "react";
 import { AuthContext } from './helpers/AuthContext';
 import axios from 'axios';
+import Profile from './components/Profile/Profile';
 
 const App = () => {
   const [authState, setAuthState] = useState({
@@ -40,6 +41,7 @@ const App = () => {
 
             <Route path="/RegistrationTester" element={<RegistrationTester />} />
             <Route path="/LoginTester" element={<LoginTester />} />
+            <Route path="/profile" element={<Profile />} />
 
             <Route path="/Logout" element={<Logout />} />
 

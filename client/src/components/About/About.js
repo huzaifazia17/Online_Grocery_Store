@@ -1,6 +1,6 @@
 // About.js will contain the about section
-import '../Styles/About.css';
-import background from '../images/cityeditted.jpg';
+
+import background from '../../images/cityeditted.jpg';
 import '../About/About.css';
 
 
