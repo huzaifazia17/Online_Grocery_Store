@@ -38,6 +38,10 @@ class webFooter extends Component {
             <p></p>
 
             <h1 className = "footerh1"><i className="fab fa-react"></i> H2Z2 Groceries</h1>
+
+            <p></p>
+
+            <p className = "rights">© 2021  H2Z2GROCRIES - ALL RIGHTS RESERVED</p>
         </div>
         )
     }

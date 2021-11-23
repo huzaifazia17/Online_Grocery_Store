@@ -20,6 +20,10 @@
 .footerh1{
     padding: 10px;
 }
+.rights{
+    font-style: italic;
+    text-align: center;
+}
 
 .footer-links{
     color: black;
