@@ -20,6 +20,11 @@ export const NavItems = [
         className: 'nav-links'
     },
     {
+        title: 'Profile',
+        url: '/Profile',
+        className: 'nav-links'
+    },
+    {
         title: 'Logout',
         url: '/Logout',
         className: 'nav-links'

@@ -17,6 +17,8 @@ import { AuthContext } from './helpers/AuthContext';
 import axios from 'axios';
 import Products from './CartComponents/Products/Products';
 import { connect } from "react-redux";
+import Footer from './components/Footer/webFooter';
+import Profile from './components/Profile/Profile';
 
 const App = ({ current }) => {
   const [authState, setAuthState] = useState({
@@ -47,8 +49,17 @@ const App = ({ current }) => {
 
             <Route path="/ContactUs" element={<Contact />} />
             <Route path="/Cart" element={<Cart />} />
+
+
+            <Route path="/RegistrationTester" element={<RegistrationTester />} />
+            <Route path="/LoginTester" element={<LoginTester />} />
+            <Route path="/profile" element={<Profile />} />
+
+            <Route path="/ContactUs" element={<Contact />} />
+            <Route path="/Cart" element={<Cart />} />
             <Route path="/Products" element={<Products />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
     </AuthContext.Provider>

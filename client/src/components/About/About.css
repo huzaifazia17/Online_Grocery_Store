@@ -1,4 +1,3 @@
-<<<<<<< HEAD:client/src/Styles/About.css
 img{
     width: 100%;
     height: 100%;
@@ -7,15 +6,9 @@ img{
     object-fit: contain;
     background-attachment: fixed;
     justify-content:center;
+    z-index: 1 !important;
 }
 
-=======
-.about-container{
-    background: red;
-    width:100%;
-    height: 100%;
-}
->>>>>>> dc68e6e83c889418530c815ca61903c5434c3f92:client/src/components/About/About.css
 .img-section{
     float: left;
     width: 25%;
