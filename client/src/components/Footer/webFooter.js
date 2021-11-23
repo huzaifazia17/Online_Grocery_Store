@@ -12,8 +12,7 @@ class webFooter extends Component {
 
     render() {
         return (
-            <nav className='footer-container'>
-
+        <div className='footer-container'>
             <p></p>
             <p></p>
             <p></p>
@@ -31,7 +30,6 @@ class webFooter extends Component {
                                 {item.title}
                             </a>
                         </li>
-
                     )
                 })}
             </ul>
@@ -40,7 +38,7 @@ class webFooter extends Component {
             <p></p>
 
             <h1 className = "footerh1"><i className="fab fa-react"></i> H2Z2 Groceries</h1>
-        </nav>
+        </div>
         )
     }
 }
