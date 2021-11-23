@@ -1,10 +1,18 @@
 import './footer.css';
+import React, { Component, useState } from 'react';
 import { footerItems } from './footerItems.js';
 
-const webFooter = () => {
-    return(
+class webFooter extends Component {
 
-        <div className = "footer-container">
+    state = { clicked: false }
+
+    handleClick = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
+
+    render() {
+        return (
+            <nav className='footer-container'>
 
             <p></p>
             <p></p>
@@ -13,17 +21,28 @@ const webFooter = () => {
             <p className = "paragraph"><i class="fab fa-twitter"></i>&nbsp;&nbsp;<i class="fab fa-facebook"></i>&nbsp;&nbsp;<i class="fab fa-instagram"></i>&nbsp;&nbsp;<i class="fab fa-linkedin"><br/></i></p>
 
             <p></p>
+            <p></p>
 
-            <form method="get" action="/">
-                <button type="submit">Home</button>
-            </form>
+            <ul className = "footer-menu">
+                {footerItems.map((item, index) => {
+                    return (
+                        <li key={index}>
+                            <a className={item.className} href={item.url}>
+                                {item.title}
+                            </a>
+                        </li>
+
+                    )
+                })}
+            </ul>
 
             <p></p>
             <p></p>
+
             <h1 className = "footerh1"><i className="fab fa-react"></i> H2Z2 Groceries</h1>
-
-        </div>
-    )
+        </nav>
+        )
+    }
 }
 
-export default webFooter;
+export default webFooter
