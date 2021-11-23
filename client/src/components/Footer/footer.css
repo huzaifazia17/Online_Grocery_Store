@@ -3,14 +3,19 @@
     background: rgb(162,153,182);
     background: linear-gradient(90deg, rgba(162,153,182,1) 1%, rgba(127,151,163,1) 47%, rgba(194,232,240,1) 86%);
     font-size: 1.2rem;
-    align-items: center;
-    justify-content: center;
     font-family: 'Abhaya Libre', serif;
+    bottom: 0;
+    clear:both;
 }
 
 .paragraph{
     text-align: center;
     padding: 10px;
+    width:fit-content;
+    margin:auto;
+}
+.paragraph:hover{
+    cursor: pointer;
 }
 .footerh1{
     padding: 10px;
@@ -29,22 +34,24 @@
 }
 .footer-menu{
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(6,auto);
+    margin-left:25%;
+    margin-right: 25%;
     list-style: none;
     text-align: center;
-    margin:auto;
-    justify-content:center;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:1100px) {
     .footer-menu{
         display: grid;
         grid-template-columns: repeat(3, auto);
-        grid-gap: 10px;
+        grid-row-gap: 20px;
         list-style: none;
         text-align: center;
-        margin:auto;
-        justify-content:center;
+        margin-left:25%;
+        margin-right: 25%;
+    }
+    .footerh1{
+        margin: auto;
     }
 }
