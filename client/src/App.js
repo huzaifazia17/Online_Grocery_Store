@@ -44,19 +44,18 @@ const App = () => {
               <Route path="/LoginTester" element={<LoginTester />} />
 
               <Route path="/Logout" element={<Logout />} />
+ <Route path="/RegistrationTester" element={<RegistrationTester />} />
+            <Route path="/LoginTester" element={<LoginTester />} />
+            <Route path="/profile" element={<Profile />} />
 
               <Route path="/ContactUs" element={<Contact />} />
               <Route path="/Cart" element={<Cart />} />
             </Routes>
           <Footer />
 
-<<<<<<< HEAD
-            <Route path="/RegistrationTester" element={<RegistrationTester />} />
+           {/* <Route path="/RegistrationTester" element={<RegistrationTester />} />
             <Route path="/LoginTester" element={<LoginTester />} />
-            <Route path="/profile" element={<Profile />} />
-=======
->>>>>>> e1885b1b39cbba5f588f0f4f7d11848a18451348
-
+            <Route path="/profile" element={<Profile />} /> */}
 
         </div>
       </Router>
