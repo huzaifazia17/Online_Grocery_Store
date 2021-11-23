@@ -18,8 +18,8 @@ const Logout = () => {
     };
     
 useEffect(() => {
-    axios.get('http://localhost:3001/auth/auth', {
-    //axios.get("https://h2z2-grocery-store.herokuapp.com/auth/auth", {
+    //axios.get('http://localhost:3001/auth/auth', {
+    axios.get("https://h2z2-grocery-store.herokuapp.com/auth/auth", {
       headers: {
         accessToken: localStorage.getItem("accessToken"),
     },

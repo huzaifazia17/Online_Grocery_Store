@@ -5,9 +5,12 @@ import './SignUp.css'
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginTester from './LoginTester';
+import { useNavigate } from "react-router-dom";
 
 
 const RegistrationTester = () => {
+    const navigate = useNavigate();
+
   const initialValues = {
     username: "",
     password: "",
@@ -19,12 +22,13 @@ const RegistrationTester = () => {
     });
   
   const onSubmit = (data) => {
-    axios.post("http://localhost:3001/auth", data).then(() => {
-    //axios.post("https://h2z2-grocery-store.herokuapp.com/auth", data).then(() => {
+    //axios.post("http://localhost:3001/auth", data).then(() => {
+    axios.post("https://h2z2-grocery-store.herokuapp.com/auth", data).then(() => {
       console.log(data);
     })
 
     .catch(error => console.log(error));
+                navigate("/");
   
     
   };
