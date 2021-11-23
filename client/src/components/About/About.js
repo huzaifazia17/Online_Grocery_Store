@@ -1,10 +1,7 @@
 // About.js will contain the about section
-<<<<<<< HEAD:client/src/JavaScript/About.js
 import '../Styles/About.css';
 import background from '../images/cityeditted.jpg';
-=======
 import '../About/About.css';
->>>>>>> dc68e6e83c889418530c815ca61903c5434c3f92:client/src/components/About/About.js
 
 
 const About = () => {
