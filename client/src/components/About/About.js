@@ -1,17 +1,13 @@
 // About.js will contain the about section
-<<<<<<< HEAD:client/src/JavaScript/About.js
-import '../Styles/About.css';
-import background from '../images/cityeditted.jpg';
-=======
-import '../About/About.css';
->>>>>>> dc68e6e83c889418530c815ca61903c5434c3f92:client/src/components/About/About.js
+import './About.css';
+//import background from '../images/cityeditted.jpg';
 
 
 const About = () => {
     return (
         <div className="about-container">
 
-            <img src={background} alt=""/>
+            {/*<img src={background} alt=""/>*/}
 
             <div className="about">
                 <h1>About Us</h1>

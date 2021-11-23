@@ -4,6 +4,7 @@ import Home from './components/Home/Home.js'
 import About from './components/About/About.js'
 import Contact from './components/Contact/Contact.js'
 import Cart from './components/Cart/Cart.js'
+import Footer from './components/Footer/webFooter.js'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import SignUpForm from './JavaScript/SignUp/SignUpForm.js'
 //import SignIn from './JavaScript/SignUp/Login.js'
@@ -34,18 +35,22 @@ const App = () => {
 
           {/*Navbar Component */}
           <NavBar />
-          <Routes className="routes-container">
-            <Route path="/" exact element={<Home />} />
-            <Route path="/About" element={<About />} />
+            <Routes className="routes-container">
+              <Route path="/" exact element={<Home />} />
+              <Route path="/About" element={<About />} />
 
-            <Route path="/RegistrationTester" element={<RegistrationTester />} />
-            <Route path="/LoginTester" element={<LoginTester />} />
+              <Route path="/RegistrationTester" element={<RegistrationTester />} />
+              <Route path="/LoginTester" element={<LoginTester />} />
 
-            <Route path="/Logout" element={<Logout />} />
+              <Route path="/Logout" element={<Logout />} />
 
-            <Route path="/ContactUs" element={<Contact />} />
-            <Route path="/Cart" element={<Cart />} />
-          </Routes>
+              <Route path="/ContactUs" element={<Contact />} />
+              <Route path="/Cart" element={<Cart />} />
+            </Routes>
+          <Footer />
+
+
+
         </div>
       </Router>
     </AuthContext.Provider>
