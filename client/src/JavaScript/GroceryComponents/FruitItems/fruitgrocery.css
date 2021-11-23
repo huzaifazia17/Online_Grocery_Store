@@ -9,6 +9,13 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
 }
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: black;
+}
 .fruit-container p{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;

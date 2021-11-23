@@ -2,6 +2,7 @@ import React from 'react'
 import './bakedgrocery.css';
 import Bagles from '../../../images/groceryItemImages/Baked Goods/Fresh Bagels.jpg';
 
+
 const Bagels = () => {
     return (
         <div className="baked-container">
@@ -14,7 +15,8 @@ const Bagels = () => {
             <p>This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan.This is our delicious A5 wagyu beef imported directly from Japan. This is our delicious A5 wagyu beef imported directly from Japan. <a href="#">Read More</a></p>
             <ul className="bottom-row">
                 <li className="price"><span>&#36;</span>74.99</li>
-                <li><button className="addToCart">VIEW ITEM</button></li>
+                <li><button className="addToCart"><a href="/Products">VIEW ITEM</a></button></li>
+
             </ul>
         </div>
     )

@@ -3,7 +3,7 @@ import NavBar from './NavigationBar/NavBar.js'
 import Home from './components/Home/Home.js'
 import About from './components/About/About.js'
 import Contact from './components/Contact/Contact.js'
-import Cart from './components/Cart/Cart.js'
+import Cart from './CartComponents/Cart/Cart'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import SignUpForm from './JavaScript/SignUp/SignUpForm.js'
 //import SignIn from './JavaScript/SignUp/Login.js'
@@ -15,8 +15,10 @@ import Logout from './UserAuthentication/Logout';
 import { useState, useEffect } from "react";
 import { AuthContext } from './helpers/AuthContext';
 import axios from 'axios';
+import Products from './CartComponents/Products/Products';
+import { connect } from "react-redux";
 
-const App = () => {
+const App = ({ current }) => {
   const [authState, setAuthState] = useState({
     username: "",
     id: 0,
@@ -45,6 +47,7 @@ const App = () => {
 
             <Route path="/ContactUs" element={<Contact />} />
             <Route path="/Cart" element={<Cart />} />
+            <Route path="/Products" element={<Products />} />
           </Routes>
         </div>
       </Router>
@@ -52,5 +55,10 @@ const App = () => {
 
   );
 }
+const mapStateToProps = (state) => {
+  return {
+    current: state.shop.currentItem,
+  };
+};
 
-export default App;
+export default connect(mapStateToProps)(App);

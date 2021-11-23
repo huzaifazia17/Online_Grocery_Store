@@ -14,7 +14,7 @@
 
 }
 .hero-container h1{
-    font-size:70px;
+    font-size:60px;
     font-family: 'Estonia', cursive;
     color: rgba(194,232,240,1);
 }
@@ -29,4 +29,8 @@
 .hero-container h3{
     transform: translateY(-300%);
     padding-bottom: 10px;
+}
+
+.hero-btns{
+    text-align: center;
 }
