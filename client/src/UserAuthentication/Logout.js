@@ -17,8 +17,14 @@ const Logout = () => {
         setAuthState({ username: "", id: 0, status: false });
     };
     
-useEffect(() => {
-    axios.get('https://h2z2-grocery-store.herokuapp.com/', {
+// useEffect(() => {
+//     axios.get("https://h2z2-grocery-store.herokuapp.com/auth/auth", {
+//       headers: {
+//         accessToken: localStorage.getItem("accessToken"),
+//     },
+//     })
+  useEffect(() => {
+    axios.get("http://localhost:3001/auth/auth", {
       headers: {
         accessToken: localStorage.getItem("accessToken"),
     },

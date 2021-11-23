@@ -40,12 +40,13 @@ const App = () => {
               <Route path="/" exact element={<Home />} />
               <Route path="/About" element={<About />} />
 
-              <Route path="/RegistrationTester" element={<RegistrationTester />} />
-              <Route path="/LoginTester" element={<LoginTester />} />
+              {/* <Route path="/RegistrationTester" element={<RegistrationTester />} />
+              <Route path="/LoginTester" element={<LoginTester />} /> */}
 
-              <Route path="/Logout" element={<Logout />} />
- <Route path="/RegistrationTester" element={<RegistrationTester />} />
+            <Route path="/RegistrationTester" element={<RegistrationTester />} />
             <Route path="/LoginTester" element={<LoginTester />} />
+              <Route path="/Logout" element={<Logout />} />
+
             <Route path="/profile" element={<Profile />} />
 
               <Route path="/ContactUs" element={<Contact />} />
