@@ -3,6 +3,8 @@ import React, { Component, useState } from 'react';
 import { NavItems } from "./NavItems";
 import { Buttons } from '../components/Button/Button';
 import { Link } from "react-router-dom";
+
+
 class NavBar extends Component {
     
     state = { clicked: false }

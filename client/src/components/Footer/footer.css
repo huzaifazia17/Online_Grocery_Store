@@ -1,0 +1,50 @@
+.footer-container{
+    height: 20em;
+    background: rgb(162,153,182);
+    background: linear-gradient(90deg, rgba(162,153,182,1) 1%, rgba(127,151,163,1) 47%, rgba(194,232,240,1) 86%);
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.paragraph{
+    text-align: center;
+    padding: 10px;
+}
+.footerh1{
+    padding: 10px;
+}
+
+.footer-links{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.footer-links:hover {
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+.footer-menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    margin:auto;
+    justify-content:center;
+}
+
+@media screen and (max-width:650px) {
+    .footer-menu{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 10px;
+        list-style: none;
+        text-align: center;
+        margin:auto;
+        justify-content:center;
+    }
+}
