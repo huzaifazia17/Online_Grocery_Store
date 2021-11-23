@@ -11,19 +11,15 @@ export const NavItems = [
     },
     {
         title: 'Sign Up',
-        url: '/RegistrationTester',
+        url: '/Registration',
         className: 'nav-links'
     },
     {
         title: 'Login',
-        url: '/LoginTester',
+        url: '/Login',
         className: 'nav-links'
     },
-    {
-        title: 'Profile',
-        url: '/Profile',
-        className: 'nav-links'
-    },
+    
     {
         title: 'Logout',
         url: '/Logout',

@@ -9,6 +9,12 @@ const LoginTester = () => {
     const [password, setPassword] = useState("");
     const { setAuthState } = useContext(AuthContext);
 
+ const [authState2, setAuthState2] = useState({
+    username: "",
+    id: 0,
+    status: false,
+ });
+    
     const navigate = useNavigate();
 
     const login = () => {
@@ -27,6 +33,7 @@ const LoginTester = () => {
     return (
 
         <div className="login">
+            <h1>LOGIN</h1>
             Username: <input type="text"
                 onChange={(event) => {
                     setUsername(event.target.value);
@@ -38,6 +45,8 @@ const LoginTester = () => {
                 }}
             />
             <button onClick={login}> Login </button>
+
+
         </div>
     )
 }

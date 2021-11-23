@@ -20,7 +20,12 @@ const NavBar = ({ cart }) => {
 
     return (
         <nav className='NavBarItems'>
-            <h1 className="navbar-logo"><a href="/" className="navbar-logo-link"><i className="fab fa-react"></i> H2Z2 Groceries</a></h1>
+            <h1 className="navbar-logo">
+                <a href="/" className="navbar-logo-link">
+                <i className="fab fa-react"></i> H2Z2 Groceries
+                </a>
+                
+            </h1>
             <div className="menu-icon" onClick={() => setOpen(!open)}>
                 <i className={open ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>

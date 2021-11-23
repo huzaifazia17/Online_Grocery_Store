@@ -1,11 +1,18 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import RegistrationTester from './RegistrationTester';
-import LoginTester from './LoginTester';
+import Registration from './Registration';
+import Login from './Login';
 import axios from 'axios';
+import { useNavigate } from "react-router-dom";
 
 const Logout = () => {
+    const navigate = useNavigate();
+
+  const refreshPage = () => {
+    window.location.reload(false);
+  }
+
  const [authState, setAuthState] = useState({
     username: "",
     id: 0,
@@ -22,8 +29,11 @@ useEffect(() => {
     axios.get("https://h2z2-grocery-store.herokuapp.com/auth/auth", {
       headers: {
         accessToken: localStorage.getItem("accessToken"),
-    },
-    })
+        
+      },
+      
+    }
+    )
     .then((response) => {
       if (response.data.error) {
         setAuthState({...authState, status:false});
@@ -34,7 +44,10 @@ useEffect(() => {
           status: true,
         });
       }
-    }); 
+
+
+    });
+  
 }, []);
     
     return (
@@ -43,15 +56,20 @@ useEffect(() => {
             {!authState.status ? (
                 <>
                     <Routes>
-               <Route path="/RegistrationTester" element={<RegistrationTester />} />
-                        <Route path="/LoginTester" element={<LoginTester />} />
-                        </Routes>
+                      <Route path="/Registration" element={<Registration />} />
+                      <Route path="/Login" element={<Login />} />
+                    </Routes>
               </>
             ) : (
-                <button onClick={logout}> Logout </button>
-            )}
+            <button onClick={logout} > Logout </button>
+            
+        )}
+        
 
-            <h1> {authState.username} </h1>
+        
+      {/* navigate("/"); */}
+
+            {/* <h1> {authState.username} </h1> */}
 
         </div>
     )

@@ -40,32 +40,32 @@ const About = () => {
             <div className="huzaifa-img">
             </div>
             <div className="huzaifa">
-                <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for
-                    my Web Programming class.
+                <p>Hello, my name is Huzaifa Zia. I am a second year student at Ontario Tech University studying Software Engineering. This website was designed as the final project for
+                    our Web Programming class.
                 </p>
             </div>
 
             <div className="hanzalah-img">
             </div>
             <div className="hanzalah">
-                <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for
-                    my Web Programming class.
+                <p>Hello, My name is Hanzalah Patel. I am a second year student at Ontario Tech University studying Software Engineering. This website was designed as the final project for
+                    our Web Programming class.
                 </p>
             </div>
 
             <div className="zubair-img">
             </div>
             <div className="zubair">
-                <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for
-                    my Web Programming class.
+                <p>Hello, My name is Zubair Islam. I am a second year student at Ontario Tech University studying Software Engineering. This website was designed as the final project for
+                    our Web Programming class.
                 </p>
             </div>
 
             <div className="ziyad-img">
             </div>
             <div className="ziyad">
-                <p>Hello, my name is Hanzalah Patel! I am a second year student at Ontario Tech University studying Software engineering. This website was designed as the final project for
-                    my Web Programming class.
+                <p>Hello, My name is Ziyad Khan. I am a second year student at Ontario Tech University studying Software Engineering. This website was designed as the final project for
+                    our Web Programming class.
                 </p>
             </div>
 
