@@ -13,12 +13,14 @@
     display: flex;
     justify-content: space-between;
     background:linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.171)),  url("../../../images/prodDivBack.jpg");
+    z-index: -1 !important;
   }
   
   .product__image {
     width: 250px;
     object-fit: contain;
     border-radius: 10px;
+    z-index: 0 !important;
   }
   
   .product__details {
