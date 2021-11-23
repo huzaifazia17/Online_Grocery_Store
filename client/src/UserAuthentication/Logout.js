@@ -18,7 +18,7 @@ const Logout = () => {
     };
     
 useEffect(() => {
-    axios.get('http://localhost:3001/auth/auth', {
+    axios.get('https://h2z2-grocery-store.herokuapp.com/', {
       headers: {
         accessToken: localStorage.getItem("accessToken"),
     },
