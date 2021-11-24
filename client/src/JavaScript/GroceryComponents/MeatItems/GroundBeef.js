@@ -16,7 +16,7 @@ const GroundBeef = () => {
 
             <ul className="bottom-row">
                 <li className="price"><span>&#36;</span>74.99</li>
-                <li><button className="addToCart"><a href="/Products">VIEW ITEM</a></button></li>
+                <li><a href="/Products"><button className="addToCart">VIEW ITEM</button></a></li>
             </ul>
         </div>
     )

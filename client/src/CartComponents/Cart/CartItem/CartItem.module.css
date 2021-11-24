@@ -3,12 +3,15 @@
     display: flex;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background:linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.171)),  url("../../../images/prodDivBack.jpg") center center/cover no-repeat;
   }
   
   .cartItem__image {
     width: 350px;
     object-fit: contain;
     border-radius: 10px;
+    z-index: 0 !important;
   }
   
   .cartItem__details {
@@ -20,17 +23,21 @@
   }
   
   .details__title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    color: #1b404b;
   }
   
   .details__desc {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    color: var(--secondary-color);
   }
   
   .details__price {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
+    color: red;
+    text-align: center;
   }
   
   .cartItem__actions {

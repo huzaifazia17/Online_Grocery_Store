@@ -4,17 +4,20 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../helpers/AuthContext";
 import './SignUp.css'
 
+
+
 const LoginTester = () => {
+
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const { setAuthState } = useContext(AuthContext);
 
- const [authState2, setAuthState2] = useState({
-    username: "",
-    id: 0,
-    status: false,
- });
-    
+    const [authState2, setAuthState2] = useState({
+        username: "",
+        id: 0,
+        status: false,
+    });
+
     const navigate = useNavigate();
 
     const login = () => {
@@ -25,7 +28,7 @@ const LoginTester = () => {
                 alert(response.data.error)
             } else {
                 localStorage.setItem("accessToken", response.data.token);
-                setAuthState({username: response.data.username, id: response.data.id, status:  true});
+                setAuthState({ username: response.data.username, id: response.data.id, status: true });
                 navigate("/");
             }
         })
@@ -38,7 +41,7 @@ const LoginTester = () => {
                 onChange={(event) => {
                     setUsername(event.target.value);
                 }}
-                />
+            />
             Password: <input type="password"
                 onChange={(event) => {
                     setPassword(event.target.value);

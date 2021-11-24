@@ -7,23 +7,23 @@ import { connect } from "react-redux";
 
 const NavBar = ({ cart }) => {
     const [authState, setAuthState] = useState({
-    username: "",
-    id: 0,
-    status: false,
+        username: "",
+        id: 0,
+        status: false,
     });
     const logout = () => {
         localStorage.removeItem("accessToken");
         setAuthState({ username: "", id: 0, status: false });
     };
 
-     const refreshPage = () => {
-    window.location.reload(false);
+    const refreshPage = () => {
+        window.location.reload(false);
     }
-    
+
     const logoutRefresh = () => {
-    logout();
-    refreshPage();
-  }
+        logout();
+        refreshPage();
+    }
     const [open, setOpen] = useState(0);
     const [cartCount, setCartCount] = useState(0);
 
@@ -40,9 +40,9 @@ const NavBar = ({ cart }) => {
         <nav className='NavBarItems'>
             <h1 className="navbar-logo">
                 <a href="/" className="navbar-logo-link">
-                <i className="fab fa-react"></i> H2Z2 Groceries
+                    <i className="fab fa-react"></i> H2Z2 Groceries
                 </a>
-                
+
             </h1>
             <div className="menu-icon" onClick={() => setOpen(!open)}>
                 <i className={open ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -60,21 +60,21 @@ const NavBar = ({ cart }) => {
                 })}
             </ul>
 
-            <div className = "loggedInContainer">
-            <Link to="/">
-                 <button onClick={logoutRefresh} > Logout </button>
+            <div className="loggedInContainer">
+                <Link to="/">
+                    <button onClick={logoutRefresh} className="logoutBtn" > Logout </button>
 
-            </Link>
-                </div>
+                </Link>
+            </div>
             <div className="upperbutton">
-                
-                
+
+
                 <Link to="/Cart">
                     <Buttons >CART ({cartCount})</Buttons>
                 </Link>
             </div>
-                
-            
+
+
         </nav>
 
     )
