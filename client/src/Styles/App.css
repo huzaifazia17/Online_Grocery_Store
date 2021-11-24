@@ -9,3 +9,11 @@
 .App{
   z-index: 1 !important;
 }
+
+.SignInBackground{
+  background: linear-gradient(90deg, rgba(162,153,182,1) 1%, rgba(127,151,163,1) 47%, rgba(194,232,240,1) 86%);
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 5px;
+}

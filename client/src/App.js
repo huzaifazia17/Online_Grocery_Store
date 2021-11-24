@@ -63,7 +63,7 @@ const App = ({ current }) => {
               
               </>
           ) : (
-                     <h1>SIGNED IN AS: {authState.username} </h1>
+                     <h1 className = "SignInBackground">SIGNED IN AS: {authState.username} </h1>
               
             )}
 
