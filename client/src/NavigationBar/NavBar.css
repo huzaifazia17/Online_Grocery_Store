@@ -73,7 +73,7 @@
     outline: none;
     border: none;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 12px;
 }
 .logoutBtn:hover{
     padding: 8px 20px;

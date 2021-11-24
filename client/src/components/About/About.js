@@ -43,7 +43,7 @@ const About = () => {
                 <p>Huzaifa Zia is a second year software engineering student at the time of the production of this website. He mainly worked on the Front End design of the Home page,
                     The Products Page, The Cart page and its backend functionality. He used his previous Web Devlopment knowledge as well learned lost of new technologies in order to
                     create this website for his final Web Programming project. You can contact huzaifa at <a href="mailto::huzaifa.zia@ontariotechu.net">huzaifa.zia@ontariotechu.net </a>
-                    or reach him on his <a href="https://www.linkedin.com/in/huzaifa-zia-86673b206/">LinkedIn.</a>
+                    or reach him on his <a href="https://www.linkedin.com/in/huzaifa-zia-86673b206/" target="_blank">LinkedIn.</a>
                 </p>
             </div>
 
