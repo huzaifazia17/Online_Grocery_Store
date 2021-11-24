@@ -17,12 +17,15 @@ import { connect } from "react-redux";
 import axios from 'axios';
 
 const App = ({ current }) => {
+
+  //set default authState as empty
   const [authState, setAuthState] = useState({
     username: "",
     id: 0,
     status: false,
   });
 
+  //get info from website and set accesstoken to local storage
   useEffect(() => {
     axios
       .get("https://h2z2-grocery-store.herokuapp.com/auth/auth", {
@@ -42,18 +45,13 @@ const App = ({ current }) => {
         }
       });
   }, []);
-  
- const logout = () => {
-    localStorage.removeItem("accessToken");
-    setAuthState({ username: "", id: 0, status: false });
-  };
-
+ 
   return (
     <div className="App">
       
-    <AuthContext.Provider value={{ authState, setAuthState }}>
-      <Router>
-
+      <AuthContext.Provider value={{ authState, setAuthState }}>
+        <Router>
+      
           {/*prints out current user signed in*/}
           {authState.status ? (
             <h1 className="SignInBackground">SIGNED IN AS: {authState.username} </h1>

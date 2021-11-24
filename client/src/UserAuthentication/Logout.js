@@ -1,15 +1,13 @@
 import React from 'react'
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+//import { BrowserRouter as Routes, Route } from 'react-router-dom';
 import Registration from './Registration';
 import Login from './Login';
 import axios from 'axios';
-import { useNavigate } from "react-router-dom";
+
+//NOT BEING USED 
 
 const Logout = () => {
-
-  //function to redirect to home page
-  const navigate = useNavigate();
 
   //function to refresh page
   const refreshPage = () => {
@@ -30,23 +28,20 @@ const Logout = () => {
   }
 
   //set default authState as empty
- const [authState, setAuthState] = useState({
+  const [authState, setAuthState] = useState({
     username: "",
     id: 0,
     status: false,
   });
 
-//get information from website
-useEffect(() => {
+  //get information from website
+  useEffect(() => {
     //axios.get('http://localhost:3001/auth/auth', {
     axios.get("https://h2z2-grocery-store.herokuapp.com/auth/auth", {
       headers: {
         accessToken: localStorage.getItem("accessToken"),
-        
       },
-      
-    }
-    )
+    })
     .then((response) => {
       if (response.data.error) {
         setAuthState({...authState, status:false});
@@ -57,28 +52,22 @@ useEffect(() => {
           status: true,
         });
       }
-
-
     });
-  
 }, []);
     
     return (
         <div>
-            
             {!authState.status ? (
                 <>
-                    <Routes>
+                    {/* <Routes>
                       <Route path="/Registration" element={<Registration />} />
                       <Route path="/Login" element={<Login />} />
-                    </Routes>
+                    </Routes> */}
               </>
             ) : (
           <button onClick={logoutRefresh} > Logout </button>
             
         )}
-
-        
         
       {/* navigate("/"); */}
 

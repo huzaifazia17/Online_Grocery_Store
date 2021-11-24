@@ -1,29 +1,37 @@
 import './NavBar.css'
-import React, { Component, useState, useEffect } from 'react';
+import React, {Component, useState, useEffect } from 'react';
 import { NavItems } from "./NavItems";
 import { Buttons } from '../components/Button/Button';
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 const NavBar = ({ cart }) => {
+
+  //set default authState as empty
     const [authState, setAuthState] = useState({
         username: "",
         id: 0,
         status: false,
     });
+
+    //function to logout and remove local storage token
+    //sets authentication state to no user logged in
     const logout = () => {
         localStorage.removeItem("accessToken");
         setAuthState({ username: "", id: 0, status: false });
     };
 
+    //function to refresh page
     const refreshPage = () => {
         window.location.reload(false);
     }
 
+    //function to refresh page and logout
     const logoutRefresh = () => {
         logout();
         refreshPage();
     }
+
     const [open, setOpen] = useState(0);
     const [cartCount, setCartCount] = useState(0);
 
@@ -55,31 +63,21 @@ const NavBar = ({ cart }) => {
                                 {item.title}
                             </a>
                         </li>
-
                     )
                 })}
             </ul>
 
-            {/* <div>
-            <Link to="/">
-                 <button onClick={logoutRefresh} > Logout </button>
-
-            </Link>
-</div> */}
             <div className="loggedInContainer">
                 <Link to="/">
                     <button onClick={logoutRefresh} className="logoutBtn" > Logout </button>
-
                 </Link>
             </div>
+
             <div className="upperbutton">
-
-
                 <Link to="/Cart">
                     <Buttons >CART ({cartCount})</Buttons>
                 </Link>
             </div>
-
 
         </nav>
 

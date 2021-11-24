@@ -37,40 +37,46 @@ const About = () => {
 
             {/*Staff descriptions below*/}
 
-            <div className="huzaifa-img">
-            </div>
+            <div className="huzaifa-img"> </div>
+            
             <div className="huzaifa">
-                <p>Huzaifa Zia is a second year software engineering student at the time of the production of this website. He mainly worked on the Front End design of the Home page,
-                    The Products Page, The Cart page and its backend functionality. He used his previous Web Devlopment knowledge as well learned lost of new technologies in order to
-                    create this website for his final Web Programming project. You can contact huzaifa at <a href="mailto::huzaifa.zia@ontariotechu.net">huzaifa.zia@ontariotechu.net </a>
-                    or reach him on his <a href="https://www.linkedin.com/in/huzaifa-zia-86673b206/" target="_blank">LinkedIn.</a>
+                <p>My name is Huzaifa Zia and I am a second year software engineering student at the time of the production
+                    of this website. I mainly worked on the frontend design of the Home page, Products page, Cart page and
+                    their backend functionalities. I used my previous Web Development knowledge and also learned new technologies
+                    in order to create this website for my final Web Programming project. You can contact me at
+                    <a href="mailto::huzaifa.zia@ontariotechu.net"> huzaifa.zia@ontariotechu.net </a>
+                    or reach me on my
+                    <a href="https://www.linkedin.com/in/huzaifa-zia-86673b206/" target="_blank"> LinkedIn.</a>
                 </p>
             </div>
 
-            <div className="hanzalah-img">
-            </div>
+            <div className="hanzalah-img"> </div>
+            
             <div className="hanzalah">
-                <p>Hello, My name is Hanzalah Patel. I am a second year student at Ontario Tech University studying Software Engineering. This website was designed as the final project for
-                    our Web Programming class.
+                <p>My name is Hanzalah Patel. I am a second year student at Ontario Tech University studying
+                    Software Engineering. This website was designed as the final project for my Web Programming class.
                 </p>
             </div>
 
-            <div className="zubair-img">
-            </div>
+            <div className="zubair-img"> </div>
+            
             <div className="zubair">
-                <p>Hello, My name is Zubair Islam. I am a second year student at Ontario Tech University studying Software Engineering. This website was designed as the final project for
-                    our Web Programming class.
+                <p>My name is Zubair Islam and I am a currently a second year student at Ontario Tech University studying
+                    Software Engineering. This website was designed as the final project for my Web Programming class.
+                    I mainly worked on the user authentication and incorporating its backend functionality.
+                    You can contact me at 
+                    <a href="mailto::zubair.islam@ontariotechu.net"> zubair.islam@ontariotechu.net </a>.
                 </p>
             </div>
 
-            <div className="ziyad-img">
-            </div>
+            <div className="ziyad-img"> </div>
+            
             <div className="ziyad">
-                <p>Hello, My name is Ziyad Khan. I am a second year student at Ontario Tech University studying Software Engineering. This website was designed as the final project for
-                    our Web Programming class.
+                <p>
+                    My name is Ziyad Khan. I am a second year student at Ontario Tech University studying
+                    Software Engineering. This website was designed as the final project for our Web Programming class.
                 </p>
             </div>
-
         </div>
     );
 }
