@@ -48,7 +48,7 @@ const RegistrationTester = () => {
           <ErrorMessage name="username" component="span" />
           <Field
             autocomplete="off"
-            id="inputCreatePost"
+            id="registration"
             name="username"
             placeholder="(Ex. John123...)"
           />
@@ -57,7 +57,7 @@ const RegistrationTester = () => {
           <Field
             autocomplete="off"
             type="password"
-            id="inputCreatePost"
+            id="registration"
             name="password"
             placeholder="Your Password..."
           />

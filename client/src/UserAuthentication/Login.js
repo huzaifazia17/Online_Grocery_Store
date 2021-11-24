@@ -31,6 +31,7 @@ const LoginTester = () => {
         })
     };
     return (
+        
 
         <div className="login">
             <h1>LOGIN</h1>
@@ -45,7 +46,6 @@ const LoginTester = () => {
                 }}
             />
             <button onClick={login}> Login </button>
-
 
         </div>
     )

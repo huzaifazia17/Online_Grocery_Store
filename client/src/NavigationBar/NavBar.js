@@ -60,12 +60,12 @@ const NavBar = ({ cart }) => {
                 })}
             </ul>
 
-            <div className = "loggedInContainer">
+            <div>
             <Link to="/">
                  <button onClick={logoutRefresh} > Logout </button>
 
             </Link>
-                </div>
+</div>
             <div className="upperbutton">
                 
                 
