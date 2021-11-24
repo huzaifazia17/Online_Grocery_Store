@@ -4,20 +4,14 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../helpers/AuthContext";
 import './SignUp.css'
 
+const Login = () => {
 
-
-const LoginTester = () => {
-
+    //set username and password as empty
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const { setAuthState } = useContext(AuthContext);
 
-    const [authState2, setAuthState2] = useState({
-        username: "",
-        id: 0,
-        status: false,
-    });
-
+    //function to redirect to home page
     const navigate = useNavigate();
 
     const login = () => {
@@ -33,9 +27,8 @@ const LoginTester = () => {
             }
         })
     };
-    return (
-        
 
+    return (
         <div className="login">
             <h1>LOGIN</h1>
             Username: <input type="text"
@@ -54,4 +47,4 @@ const LoginTester = () => {
     )
 }
 
-export default LoginTester
+export default Login

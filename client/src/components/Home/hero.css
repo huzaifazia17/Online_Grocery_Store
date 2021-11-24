@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Estonia&display=swap');
 
 .hero-container{
-    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url('../images/hero.jpg') center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url('../../images/hero.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;

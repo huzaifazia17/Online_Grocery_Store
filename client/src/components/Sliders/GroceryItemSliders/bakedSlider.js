@@ -1,12 +1,14 @@
 import React from 'react'
 import '../../Sliders/bakedSlider.css';
 //import Bagels from '../GroceryComponents/BakedItems/Bagels';
-import Bagels from '../../../JavaScript/GroceryComponents/BakedItems/Bagels'
-import Bread from '../../../JavaScript/GroceryComponents/BakedItems/Bread';
-import Brioche from '../../../JavaScript/GroceryComponents/BakedItems/Brioche';
-import Buns from '../../../JavaScript/GroceryComponents/BakedItems/Buns';
-import Doughnuts from '../../../JavaScript/GroceryComponents/BakedItems/Doughnuts';
-import Cookies from '../../../JavaScript/GroceryComponents/BakedItems/Cookies';
+import Bagels from '../../GroceryComponents/BakedItems/Bagels'
+
+import Bread from '../../GroceryComponents/BakedItems/Bread';
+import Brioche from '../../GroceryComponents/BakedItems/Brioche';
+import Buns from '../../GroceryComponents/BakedItems/Buns';
+import Doughnuts from '../../GroceryComponents/BakedItems/Doughnuts';
+import Cookies from '../../GroceryComponents/BakedItems/Cookies';
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

@@ -1,5 +1,5 @@
-import '../Styles/howto.css';
-import img from '../images/howtoimg.png';
+import './howto.css';
+import img from '../../images/howtoimg.png';
 
 const HowTo = () => {
     return (
