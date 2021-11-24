@@ -73,8 +73,8 @@ p{
 @media only screen and (min-width: 1450px) {
     .contact-info{
         float: left;
-        max-height: 28.5em;
-        min-height: 28.5em;
+        max-height: 30em;
+        min-height: 30em;
     }
     .contact-form{
         max-height: 30em;
