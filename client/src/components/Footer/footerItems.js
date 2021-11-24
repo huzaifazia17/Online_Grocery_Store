@@ -1,22 +1,22 @@
 export const footerItems = [
     {
-        title: 'Home',
-        url: '/',
-        className: 'footer-links'
-    },
-    {
         title: 'About',
         url: '/About',
         className: 'footer-links'
     },
     {
+        title: 'Products',
+        url: '/Products',
+        className: 'footer-links'
+    },
+    {
         title: 'Sign Up',
-        url: '/RegistrationTester',
+        url: '/Registration',
         className: 'footer-links'
     },
     {
         title: 'Login',
-        url: '/LoginTester',
+        url: '/Login',
         className: 'footer-links'
     },
     {
