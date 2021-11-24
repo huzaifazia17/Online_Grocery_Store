@@ -20,11 +20,6 @@ export const footerItems = [
         className: 'footer-links'
     },
     {
-        title: 'Logout',
-        url: '/Logout',
-        className: 'footer-links'
-    },
-    {
         title: 'Contact Us',
         url: '/ContactUs',
         className: 'footer-links'
