@@ -12,11 +12,9 @@
 	position:sticky;
 	top: 0; 
     z-index: 1 !important;
-
 }
 
-
-.navbar-logo-link{
+.navbar-logo-link {
     text-decoration: none;
     color:aliceblue;
 }
@@ -43,6 +41,7 @@
     justify-content:center;
     margin-right: 2rem;
 }
+
 .nav-links{
     color: white;
     text-decoration: none;

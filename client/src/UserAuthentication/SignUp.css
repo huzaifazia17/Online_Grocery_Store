@@ -68,7 +68,7 @@ input[type=submit]:hover {
   box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
 }
 
-.formContainer #inputCreatePost {
+.formContainer #registration {
   height: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
