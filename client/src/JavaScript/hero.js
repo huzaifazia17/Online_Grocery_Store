@@ -14,7 +14,9 @@ const Hero = () => {
                     <Link to="/Products">
                         <Buttons className='btns' buttonStyle='btn--primary' buttonSize='btn--medium'>START SHOPPING</Buttons>
                     </Link>
-                    <Buttons className='btns' buttonStyle='btn--outline' buttonSize='btn--medium'>CONTACT US</Buttons>
+                    <Link to="/ContactUs">
+                        <Buttons className='btns' buttonStyle='btn--outline' buttonSize='btn--medium'>CONTACT US</Buttons>
+                    </Link>
                 </div>
             </div>
         </div>

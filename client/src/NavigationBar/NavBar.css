@@ -65,6 +65,24 @@
 .menu-icon{
     display: none;
 }
+.logoutBtn{
+    background: #1b404b;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+.logoutBtn:hover{
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: rgb(245, 241, 241);
+    color: #6568f4;
+    transition: 250ms;
+}
+
 
 @media screen and (max-width:960px) {
     .NavBarItems{
@@ -157,5 +175,7 @@
   justify-content: flex-end;
   align-items: center;
 }
-
+.logoutBtn{
+display: none;
+}
 }

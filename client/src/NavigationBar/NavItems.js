@@ -1,12 +1,12 @@
 export const NavItems = [
     {
-        title: 'Home',
-        url: '/',
+        title: 'About',
+        url: '/About',
         className: 'nav-links'
     },
     {
-        title: 'About',
-        url: '/About',
+        title: 'Products',
+        url: '/Products',
         className: 'nav-links'
     },
     {
@@ -19,12 +19,6 @@ export const NavItems = [
         url: '/Login',
         className: 'nav-links'
     },
-    
-    // {
-    //     title: 'Logout',
-    //     url: '/Logout',
-    //     className: 'nav-links'
-    // },
     {
         title: 'Contact Us',
         url: '/ContactUs',

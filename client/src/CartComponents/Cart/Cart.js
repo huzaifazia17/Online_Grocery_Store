@@ -1,26 +1,37 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Cart.module.css";
-
+import { useNavigate } from "react-router-dom";
 import { connect } from "react-redux";
 
 import CartItem from "./CartItem/CartItem";
 
 const Cart = ({ cart }) => {
+    const navigate = useNavigate();
     const [totalPrice, setTotalPrice] = useState(0);
+    const [taxPrice, setTaxPrice] = useState(0);
     const [totalItems, setTotalItems] = useState(0);
+    const purchased = () => {
+        alert("Thank you for shopping with H2Z2 Grocries!!");
 
+        navigate("/");
+        window.location.reload();
+    }
     useEffect(() => {
         let items = 0;
         let price = 0;
+        let tax = 1.13;
+        let priceWithTax;
 
         cart.forEach((item) => {
             items += item.qty;
             price += item.qty * item.price;
+            priceWithTax = price * tax;
         });
 
         setTotalItems(items);
         setTotalPrice(price);
-    }, [cart, totalPrice, totalItems, setTotalPrice, setTotalItems]);
+        setTaxPrice(priceWithTax);
+    }, [cart, totalPrice, totalItems, setTotalPrice, setTotalItems, setTaxPrice]);
 
     return (
         <div className={styles.cart}>
@@ -35,7 +46,11 @@ const Cart = ({ cart }) => {
                     <span>TOTAL: ({totalItems} items)</span>
                     <span>$ {totalPrice}</span>
                 </div>
-                <button className={styles.summary__checkoutBtn}>
+                <div className={styles.summary__price}>
+                    <span>TOTAL WITH TAX: (1.13%)</span>
+                    <span>$ {(Math.round(taxPrice * 100) / 100).toFixed(2)}</span>
+                </div>
+                <button className={styles.summary__checkoutBtn} onClick={purchased}>
                     Proceed To Checkout
                 </button>
             </div>
