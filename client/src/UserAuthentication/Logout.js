@@ -5,8 +5,14 @@ import Registration from './Registration';
 import Login from './Login';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
+import { ref } from 'yup';
 
 const Logout = () => {
+  const logoutRefresh = () => {
+    logout();
+    refreshPage();
+  }
+  
     const navigate = useNavigate();
 
   const refreshPage = () => {
@@ -61,11 +67,11 @@ useEffect(() => {
                     </Routes>
               </>
             ) : (
-            <button onClick={logout} > Logout </button>
+          <button onClick={logoutRefresh} > Logout </button>
             
         )}
-        
 
+        
         
       {/* navigate("/"); */}
 

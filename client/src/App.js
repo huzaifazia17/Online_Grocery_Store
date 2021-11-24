@@ -75,7 +75,7 @@ const App = ({ current }) => {
 
             <Route path="/Registration" element={<Registration />} />
             <Route path="/Login" element={<Login />} />
-            <Route path="/Logout" element={<Logout />}/>
+            {/* <Route path="/Logout" element={<Logout />}/> */}
 
             <Route path="/ContactUs" element={<Contact />} />
             <Route path="/Cart" element={<Cart />} />

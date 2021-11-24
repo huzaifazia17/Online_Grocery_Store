@@ -6,6 +6,24 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 const NavBar = ({ cart }) => {
+    const [authState, setAuthState] = useState({
+    username: "",
+    id: 0,
+    status: false,
+    });
+    const logout = () => {
+        localStorage.removeItem("accessToken");
+        setAuthState({ username: "", id: 0, status: false });
+    };
+
+     const refreshPage = () => {
+    window.location.reload(false);
+    }
+    
+    const logoutRefresh = () => {
+    logout();
+    refreshPage();
+  }
     const [open, setOpen] = useState(0);
     const [cartCount, setCartCount] = useState(0);
 
@@ -41,12 +59,22 @@ const NavBar = ({ cart }) => {
                     )
                 })}
             </ul>
+
+            <div className = "loggedInContainer">
+            <Link to="/">
+                 <button onClick={logoutRefresh} > Logout </button>
+
+            </Link>
+                </div>
             <div className="upperbutton">
+                
+                
                 <Link to="/Cart">
                     <Buttons >CART ({cartCount})</Buttons>
                 </Link>
-
             </div>
+                
+            
         </nav>
 
     )

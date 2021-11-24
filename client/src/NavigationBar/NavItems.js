@@ -20,11 +20,11 @@ export const NavItems = [
         className: 'nav-links'
     },
     
-    {
-        title: 'Logout',
-        url: '/Logout',
-        className: 'nav-links'
-    },
+    // {
+    //     title: 'Logout',
+    //     url: '/Logout',
+    //     className: 'nav-links'
+    // },
     {
         title: 'Contact Us',
         url: '/ContactUs',
