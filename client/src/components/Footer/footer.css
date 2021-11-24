@@ -38,7 +38,7 @@
 }
 .footer-menu{
     display: grid;
-    grid-template-columns: repeat(6,auto);
+    grid-template-columns: repeat(5,auto);
     margin-left:25%;
     margin-right: 25%;
     list-style: none;
