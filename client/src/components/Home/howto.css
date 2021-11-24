@@ -1,5 +1,5 @@
 .howto-container{
-    background: linear-gradient(90deg, rgba(162, 153, 182, 0.198) 1%, rgba(127, 151, 163, 0.287) 47%, rgba(194, 232, 240, 0.253) 86%),url('../images/howto.jpg') center center/cover no-repeat;
+    background: linear-gradient(90deg, rgba(162, 153, 182, 0.198) 1%, rgba(127, 151, 163, 0.287) 47%, rgba(194, 232, 240, 0.253) 86%),url('../../images/howto.jpg') center center/cover no-repeat;
     height: 80vh;
     width: 100%;
     display: flex;

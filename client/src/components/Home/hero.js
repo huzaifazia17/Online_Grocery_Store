@@ -1,6 +1,6 @@
 import React from 'react';
-import { Buttons } from '../components/Button/Button.js';
-import '../Styles/hero.css';
+import { Buttons } from '../Button/Button.js';
+import './hero.css';
 import { Link } from "react-router-dom";
 
 const Hero = () => {

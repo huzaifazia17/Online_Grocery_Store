@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
-import Hero from '../../JavaScript/hero';
-import HowTo from '../../JavaScript/HowTo';
+import Hero from './hero'
+import HowTo from './HowTo';
 //import MeatSlider from '../Sliders/GroceryItemSliders/meatSlider';
 import MeatSlider from '../Sliders/GroceryItemSliders/meatSlider'
 import VegSlider from '../Sliders/GroceryItemSliders/vegSlider';

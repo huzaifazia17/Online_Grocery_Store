@@ -8,7 +8,7 @@ import Login from './Login';
 import { useNavigate } from "react-router-dom";
 
 
-const RegistrationTester = () => {
+const Registration = () => {
     const navigate = useNavigate();
 
   const initialValues = {
@@ -69,4 +69,4 @@ const RegistrationTester = () => {
   );
 }
 
-export default RegistrationTester
+export default Registration

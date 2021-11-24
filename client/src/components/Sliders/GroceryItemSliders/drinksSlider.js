@@ -1,12 +1,12 @@
 import React from 'react'
 import '../../Sliders/drinksSlider.css';
 
-import ChocolateMilk from '../../../JavaScript/GroceryComponents/DrinkItems/ChocolateMilk';
-import Coke from '../../../JavaScript/GroceryComponents/DrinkItems/Coke';
-import Fanta from '../../../JavaScript/GroceryComponents/DrinkItems/Fanta';
-import Tea from '../../../JavaScript/GroceryComponents/DrinkItems/Tea';
-import OJ from '../../../JavaScript/GroceryComponents/DrinkItems/OJ';
-import Pepsi from '../../../JavaScript/GroceryComponents/DrinkItems/Pepsi'
+import ChocolateMilk from '../../GroceryComponents/DrinkItems/ChocolateMilk';
+import Coke from '../../GroceryComponents/DrinkItems/Coke';
+import Fanta from '../../GroceryComponents/DrinkItems/Fanta';
+import Tea from '../../GroceryComponents/DrinkItems/Tea';
+import OJ from '../../GroceryComponents/DrinkItems/OJ';
+import Pepsi from '../../GroceryComponents/DrinkItems/Pepsi'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

@@ -5,31 +5,38 @@ import Registration from './Registration';
 import Login from './Login';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-import { ref } from 'yup';
 
 const Logout = () => {
-  const logoutRefresh = () => {
-    logout();
-    refreshPage();
-  }
-  
-    const navigate = useNavigate();
 
+  //function to redirect to home page
+  const navigate = useNavigate();
+
+  //function to refresh page
   const refreshPage = () => {
     window.location.reload(false);
   }
 
+  //function to logout and remove local storage token
+  //sets authentication state to no user logged in
+  const logout = () => {
+    localStorage.removeItem("accessToken");
+    setAuthState({ username: "", id: 0, status: false });
+  };
+  
+  //function to refresh page and logout
+  const logoutRefresh = () => {
+    logout();
+    refreshPage();
+  }
+
+  //set default authState as empty
  const [authState, setAuthState] = useState({
     username: "",
     id: 0,
     status: false,
   });
 
-    const logout = () => {
-        localStorage.removeItem("accessToken");
-        setAuthState({ username: "", id: 0, status: false });
-    };
-    
+//get information from website
 useEffect(() => {
     //axios.get('http://localhost:3001/auth/auth', {
     axios.get("https://h2z2-grocery-store.herokuapp.com/auth/auth", {

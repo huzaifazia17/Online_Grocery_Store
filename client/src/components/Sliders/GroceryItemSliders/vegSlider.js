@@ -1,10 +1,10 @@
 import '../../Sliders/vegSlider.css';
-import Lettuce from '../../../JavaScript/GroceryComponents/VegItems/Lettuce';
-import Cucumber from '../../../JavaScript/GroceryComponents/VegItems/Cucumber';
-import Broccoli from '../../../JavaScript/GroceryComponents/VegItems/Broccoli';
-import Avacado from '../../../JavaScript/GroceryComponents/VegItems/Avacado';
-import Bean from '../../../JavaScript/GroceryComponents/VegItems/Bean';
-import Asparagus from '../../../JavaScript/GroceryComponents/VegItems/Asparagus';
+import Lettuce from '../../GroceryComponents/VegItems/Lettuce';
+import Cucumber from '../../GroceryComponents/VegItems/Cucumber';
+import Broccoli from '../../GroceryComponents/VegItems/Broccoli';
+import Avacado from '../../GroceryComponents/VegItems/Avacado';
+import Bean from '../../GroceryComponents/VegItems/Bean';
+import Asparagus from '../../GroceryComponents/VegItems/Asparagus';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

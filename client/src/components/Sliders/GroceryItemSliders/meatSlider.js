@@ -1,12 +1,12 @@
 import '../../Sliders/meatSlider.css';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import A5Wagyu from '../../../JavaScript/GroceryComponents/MeatItems/A5Wagyu';
-import ChickenWhole from '../../../JavaScript/GroceryComponents/MeatItems/ChickenWhole';
-import GroundBeef from '../../../JavaScript/GroceryComponents/MeatItems/GroundBeef';
-import Ribs from '../../../JavaScript/GroceryComponents/MeatItems/Ribs';
-import Normalbeef from '../../../JavaScript/GroceryComponents/MeatItems/NormalBeef';
-import GroundChicken from '../../../JavaScript/GroceryComponents/MeatItems/GroundChicken';
+import A5Wagyu from '../../GroceryComponents/MeatItems/A5Wagyu';
+import ChickenWhole from '../../GroceryComponents/MeatItems/ChickenWhole';
+import GroundBeef from '../../GroceryComponents/MeatItems/GroundBeef';
+import Ribs from '../../GroceryComponents/MeatItems/Ribs';
+import Normalbeef from '../../GroceryComponents/MeatItems/NormalBeef';
+import GroundChicken from '../../GroceryComponents/MeatItems/GroundChicken';
 
 // Import Swiper styles
 import 'swiper/swiper-bundle.min.css'
