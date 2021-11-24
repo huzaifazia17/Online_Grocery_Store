@@ -34,7 +34,7 @@ const Registration = () => {
   };
   
   return (
-        <div>
+        <div className = "container">
 
       <Formik
         initialValues={initialValues}

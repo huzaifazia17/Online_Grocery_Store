@@ -41,7 +41,7 @@ class webFooter extends Component {
 
             <p></p>
 
-            <p className = "rights">© 2021  H2Z2GROCRIES - ALL RIGHTS RESERVED</p>
+            <p className = "rights">© 2021  H2Z2GROCERIES - ALL RIGHTS RESERVED</p>
         </div>
         )
     }
