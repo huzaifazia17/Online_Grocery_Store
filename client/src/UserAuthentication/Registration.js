@@ -34,7 +34,7 @@ const RegistrationTester = () => {
   };
   
   return (
-        <div>
+        <div className = "container">
 
       <Formik
         initialValues={initialValues}
