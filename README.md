@@ -9,7 +9,7 @@ Languages: JavaScript, ExpressJS, SQL, JSX, CSS
 # View Demo
 Website: COMING SOON  
 ## Installation
-If everything is not isntalled automatically, you may follow these step by step procedures:  
+If everything is not installed automatically, you may follow these step by step procedures:  
 First make sure you have NodeJS installed.  
 ```bash
 npm install -g npm
