@@ -43,7 +43,7 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.  
 To run the server,  
 CD inside the server folder and do the following (Do this if you are using a local server):  
-### `npm run server`
+### `npm start server`
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.  
