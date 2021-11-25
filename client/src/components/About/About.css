@@ -1,3 +1,8 @@
+.about-container{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url('../../images/cityeditted.jpg') center center/cover no-repeat;
+}
+
 img{
     width: 100%;
     height: 100%;
@@ -7,6 +12,7 @@ img{
     background-attachment: fixed;
     justify-content:center;
     z-index: 1 !important;
+    
 }
 
 .img-section{
@@ -21,6 +27,7 @@ img{
     margin-left: 15%;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     background: url('../../images/H2Z2StoreLayout.jpg') center center/cover ;
+    
     
 }
 
@@ -38,6 +45,7 @@ img{
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     box-sizing: border-box;
     overflow: hidden;
+    
 }
 
 .staff, .about{

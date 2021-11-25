@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 
 const Registration = () => {
 
-    //function to redirect to home page
-    const navigate = useNavigate();
+  //function to redirect to home page
+  const navigate = useNavigate();
 
   //set as empty
   const initialValues = {
@@ -15,35 +15,35 @@ const Registration = () => {
     password: "",
   };
 
-    //data validation
-    const validationSchema = Yup.object().shape({
-        username: Yup.string().min(3).max(15).required(),
-        password: Yup.string().min(4).max(20).required(),
-    });
-  
+  //data validation
+  const validationSchema = Yup.object().shape({
+    username: Yup.string().min(3).max(15).required(),
+    password: Yup.string().min(4).max(20).required(),
+  });
+
   //when user signs up, data is received
   const onSubmit = (data) => {
     //axios.post("http://localhost:3001/auth", data).then(() => {
     axios.post("https://h2z2-grocery-store.herokuapp.com/auth", data)
       .then(() => {
-      console.log(data);
-    })
+        console.log(data);
+      })
       .catch(error => console.log(error));
-      navigate("/");
-    
+    navigate("/");
+
   };
-  
+
   return (
     <div className="container">
-      
+
       <Formik
         initialValues={initialValues}
         onSubmit={onSubmit}
         validationSchema={validationSchema}
       >
         <Form className="formContainer">
-        <h1>Sign Up for 20% OFF your next purchase!</h1>
-          
+          <h1>Sign Up for 20% OFF your next purchase!</h1>
+
           <label>Username: </label>
           <ErrorMessage name="username" component="span" />
           <Field
@@ -52,7 +52,7 @@ const Registration = () => {
             name="username"
             placeholder="(Ex. John123...)"
           />
-          
+
           <label>Password: </label>
           <ErrorMessage name="password" component="span" />
           <Field
@@ -63,7 +63,7 @@ const Registration = () => {
             placeholder="Your Password..."
           />
 
-          <button type="submit"> Register</button>
+          <button type="submit" className="sign-btn"> Register</button>
         </Form>
       </Formik>
     </div>

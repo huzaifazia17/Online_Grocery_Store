@@ -10,6 +10,8 @@ const Cart = ({ cart }) => {
     const [totalPrice, setTotalPrice] = useState(0);
     const [taxPrice, setTaxPrice] = useState(0);
     const [totalItems, setTotalItems] = useState(0);
+    const [taxAdded, setTax] = useState(0);
+
     const purchased = () => {
         alert("Thank you for shopping with H2Z2 Grocries!!");
 
@@ -28,6 +30,7 @@ const Cart = ({ cart }) => {
             priceWithTax = price * tax;
         });
 
+        priceWithTax > 0 ? setTax(1) : setTax(0);
         setTotalItems(items);
         setTotalPrice(price);
         setTaxPrice(priceWithTax);
@@ -48,7 +51,7 @@ const Cart = ({ cart }) => {
                 </div>
                 <div className={styles.summary__price}>
                     <span>TOTAL WITH TAX: (1.13%)</span>
-                    <span>$ {(Math.round(taxPrice * 100) / 100).toFixed(2)}</span>
+                    <span>$ {taxAdded ? (Math.round(taxPrice * 100) / 100).toFixed(2) : 0}</span>
                 </div>
                 <button className={styles.summary__checkoutBtn} onClick={purchased}>
                     Proceed To Checkout

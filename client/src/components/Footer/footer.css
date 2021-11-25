@@ -6,6 +6,10 @@
     font-family: 'Abhaya Libre', serif;
     bottom: 0;
     clear:both;
+    left:0;
+    bottom:0;
+    right:0;
+    
 }
 
 .paragraph{
@@ -43,6 +47,7 @@
     margin-right: 25%;
     list-style: none;
     text-align: center;
+
 }
 
 @media screen and (max-width:1100px) {

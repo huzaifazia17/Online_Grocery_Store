@@ -29,21 +29,24 @@ const Login = () => {
     };
 
     return (
-        <div className="login">
-            <h1>LOGIN</h1>
-            Username: <input type="text"
-                onChange={(event) => {
-                    setUsername(event.target.value);
-                }}
-            />
-            Password: <input type="password"
-                onChange={(event) => {
-                    setPassword(event.target.value);
-                }}
-            />
-            <button onClick={login}> Login </button>
+        <div className="login-container">
+            <div className="login">
+                <h1>LOGIN</h1>
+                Username: <input type="text"
+                    onChange={(event) => {
+                        setUsername(event.target.value);
+                    }}
+                />
+                Password: <input type="password"
+                    onChange={(event) => {
+                        setPassword(event.target.value);
+                    }}
+                />
+                <button onClick={login} className="login-btn"> Login </button>
 
+            </div>
         </div>
+
     )
 }
 

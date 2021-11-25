@@ -1,5 +1,7 @@
 .container{
+  background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.295)),url("../images/signBack.jpg") center center/cover no-repeat;
   background-color: #ebe1ec;
+  height: 100vh;
 }
 .signUp{
     text-align: center;
@@ -8,6 +10,7 @@
     font-family: 'Abhaya Libre', serif;
     padding-top: 30px;
     color: rgb(63, 63, 129);
+
 }
 
 .signUp-form
@@ -24,6 +27,27 @@
     margin-right:27%;
     display: flex;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+
+}
+.sign-btn{
+  width:100px;
+  height:40px;
+  background: #1b404b;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  align-self: center;
+}
+.sign-btn:hover{
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+  background: rgb(245, 241, 241);
+  color: #6568f4;
+  transition: 250ms;
 }
 
 input[type=text], input[type=password], input[type=email] select, textarea {
@@ -61,14 +85,15 @@ input[type=submit]:hover {
   border: 5px solid dodgerblue;
   background: lightcoral;
   float: right;
-  width: 45%;
+  width: 30%;
   border-radius: px;
   background-color: #CBC3E3;
   padding: 20px;
-  margin-top: 2%; /* Add a top margin */
+  margin-top: 5%; /* Add a top margin */
   margin-bottom: 5%; /* Bottom margin */
-  margin-right:27%;
+  margin-right:35%;
   box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+  transform: translateY(80%);
 }
 
 .formContainer #registration {
@@ -80,18 +105,41 @@ input[type=submit]:hover {
   padding-left: 10px;
   font-size: 20px;
 }
-
+.login-container{
+  height: 100vh;
+  background:url("../images/loginBack.jpg") center center/cover no-repeat;
+}
+.login-btn{
+  width:100px;
+  height:40px;
+  background: #1b404b;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  align-self: center;
+}
+.login-btn:hover{
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+  background: rgb(245, 241, 241);
+  color: #6568f4;
+  transition: 250ms;
+}
 .login {
   padding:25px;
     background: lightcoral;
     float: right;
-    width: 45%;
+    width: 20%;
     border-radius: px;
     background-color: #CBC3E3;
     padding: 20px;
     margin-top: 2%; /* Add a top margin */
     margin-bottom: 5%; /* Bottom margin */
-    margin-right:27%;
+    margin-right:40%;
     display: flex;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     display: flex;
@@ -101,4 +149,5 @@ input[type=submit]:hover {
   padding: 20px;
   border: 5px solid dodgerblue;
   border-radius: 5px;
+  transform: translateY(80%);
 }
