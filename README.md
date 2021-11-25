@@ -8,7 +8,7 @@ Database: MYSQL Workbench
 Languages: JavaScript, ExpressJS, SQL, JSX, CSS  
 # View Demo
 Website: COMING SOON  
-##Installation
+## Installation
 If everything is not isntalled automatically, you may follow these step by step procedures:  
 First make sure you have NodeJS installed.  
 ```bash
@@ -31,7 +31,7 @@ npm i mysql2
 npm i rsequilize --save
 npm i sequelize-cli --save
 ```
-##Usage
+## Usage
 To run the website in your localhost  
 CD inside the client folder and do the following:  
 ### `npm start`
