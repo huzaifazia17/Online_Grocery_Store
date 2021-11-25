@@ -1,5 +1,5 @@
 # Online Grocery Store
-This is an online grocery store concept with many functionalities. It is not for practical use, although may be enhanced for real world producction.
+This is an online grocery store concept with many functionalities. It is not for practical use, although may be enhanced for real world production.
 Created by Huzaifa Zia(huzaifa.zia@ontariotechu.net), Zubair Islam (zubair.islam@ontariotechu.net) and Hanzalah Patel (hanzalah.patel@ontariotechu.net) for a final project for 
 their Web Programming Class.
 This is a full stack project so it includes a server, database and obviously front end. Read the installation section to get to know how to install thsi program.
