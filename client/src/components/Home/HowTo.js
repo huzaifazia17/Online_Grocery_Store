@@ -1,6 +1,8 @@
 import './howto.css';
 import img from '../../images/howtoimg.png';
 
+
+
 const HowTo = () => {
     return (
         <div className="howto-container">
@@ -8,7 +10,7 @@ const HowTo = () => {
             <div>
             </div>
             <div>
-                <ul className="howto-list">
+                <ul className="howto-list ">
                     <li><img src={img}></img> </li>
                     <li className="wordlist"><i class="fas fa-scroll"></i> Scroll down and view our items from our wide selection!
                         <br></br><br></br><i class="fas fa-shopping-cart"></i> Choose how many you want and add them to your cart!
