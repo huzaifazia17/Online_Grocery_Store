@@ -7,7 +7,7 @@ Front End Framework: React
 Database: MYSQL Workbench  
 Languages: JavaScript, ExpressJS, SQL, JSX, CSS  
 # View Demo
-Website: COMING SOON  
+Website: https://h2z2groceries.netlify.app/  
 ## Installation
 If everything is not installed automatically, you may follow these step by step procedures:  
 First make sure you have NodeJS installed.  
