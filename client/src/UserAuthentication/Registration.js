@@ -41,7 +41,7 @@ const Registration = () => {
         onSubmit={onSubmit}
         validationSchema={validationSchema}
       >
-        <Form className="formContainer">
+        <Form className="formContainer ">
           <h1>Sign Up for 20% OFF your next purchase!</h1>
 
           <label>Username: </label>

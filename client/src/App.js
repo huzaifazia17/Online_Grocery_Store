@@ -10,7 +10,7 @@ import Products from './CartComponents/Products/Products';
 import Registration from './UserAuthentication/Registration';
 import Login from './UserAuthentication/Login';
 import { AuthContext } from './helpers/AuthContext';
-
+import 'animate.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import { connect } from "react-redux";

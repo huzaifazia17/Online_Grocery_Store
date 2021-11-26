@@ -6,16 +6,16 @@ import './About.css';
 const About = () => {
     return (
         <div className="about-section">
-            <div className="about-container">
+            <div className="about-container ">
 
-                <div className="about">
+                <div className="about animate__animated animate__rotateInDownRight">
                     <h1>About Us</h1>
                 </div>
 
-                <div className="img-section">
+                <div className="img-section animate__animated animate__flipInX">
                 </div>
 
-                <div className="description">
+                <div className="description animate__animated animate__flipInX">
                     <p>H2Z2 is a online grocery store that allows its customers to order any and all types of foods and vegetables that everyone needs on a daily basis.
                         At H2Z2 we put our customers above all else and will do anything to ensure that customers have the easiest and fattest way to shop for their daily groceries that will be delivered right to their doorstep.
                         H2Z2 gets fresh vegetables and fruits every single day to endure that what we sell to our customers in only the best of the best. Our bakery goods are made fresh every single morning andmore throuout the day for 24/7 freshness.
@@ -30,15 +30,15 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className="staff">
+                <div className="staff animate__animated animate__rotateInDownRight">
                     <h1>Staff Descriptions</h1>
                 </div>
 
                 {/*Staff descriptions below*/}
 
-                <div className="huzaifa-img"> </div>
+                <div className="huzaifa-img animate__animated animate__flipInY"> </div>
 
-                <div className="huzaifa">
+                <div className="huzaifa animate__animated animate__zoomIn">
                     <p>Huzaifa Zia is a second year software engineering student at the time of the production
                         of this website. He mainly worked on the frontend design of the Home page, Products page, Cart page and
                         their backend functionalities. He used his previous Web Development knowledge and also learned new technologies
@@ -49,18 +49,18 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className="hanzalah-img"> </div>
+                <div className="hanzalah-img animate__animated animate__flipInY"> </div>
 
-                <div className="hanzalah">
+                <div className="hanzalah animate__animated animate__zoomIn">
                     <p>Hanzalah Patel is a second year student at Ontario Tech University studying
                         Software Engineering. This website was designed as his final project for his Web Programming class. He mainly worked on the Contact Page, About page,
                         and on the Footer. You can contact Hanzalah at <a href="mailto::hanzalah.patel@ontariotechu.net">hanzalah.patel@ontariotechu.net</a>.
                     </p>
                 </div>
 
-                <div className="zubair-img"> </div>
+                <div className="zubair-img animate__animated animate__flipInY"> </div>
 
-                <div className="zubair">
+                <div className="zubair animate__animated animate__zoomIn">
                     <p>Zubair Islam is currently a second year student at Ontario Tech University studying
                         Software Engineering. This website was designed as the final project for his Web Programming class.
                         He mainly worked on the user authentication and incorporating its backend functionality.
@@ -69,9 +69,9 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className="ziyad-img"> </div>
+                <div className="ziyad-img animate__animated animate__flipInY"> </div>
 
-                <div className="ziyad">
+                <div className="ziyad animate__animated animate__zoomIn">
                     <p>
                         Ziyad Khan is a second year student at Ontario Tech University studying
                         Software Engineering. This website was designed as his final project for his Web Programming class.

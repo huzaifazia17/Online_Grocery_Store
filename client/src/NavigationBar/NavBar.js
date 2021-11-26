@@ -1,18 +1,18 @@
 import './NavBar.css'
-import React, {Component, useState, useEffect } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import { NavItems } from "./NavItems";
 import { Buttons } from '../components/Button/Button';
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 const NavBar = ({ cart }) => {
-
-  //set default authState as empty
+    //set default authState as empty
     const [authState, setAuthState] = useState({
         username: "",
         id: 0,
         status: false,
     });
+
 
     //function to logout and remove local storage token
     //sets authentication state to no user logged in

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
     return (
         <div className="hero-container ">
-            <div className="text_btn">
+            <div className="text_btn animate__animated animate__swing">
                 <h1>GOODBYE GROCERY TRIPS</h1>
                 <h1>HELLO SUPER QUICK GROCERY DOOR DELIEVRIES</h1>
                 <h3>{"\n"} </h3>

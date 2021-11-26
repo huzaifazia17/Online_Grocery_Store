@@ -47,7 +47,12 @@ img{
     overflow: hidden;
     
 }
-
+.animate__animated.animate__zoomIn{
+    --animate-duration: 5s;
+}
+.animate__animated.animate__flipInY{
+    --animate-duration: 5s;
+}
 .staff, .about{
     font-family: 'Abhaya Libre', serif;
     text-align: center;

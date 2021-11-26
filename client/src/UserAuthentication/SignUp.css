@@ -93,7 +93,7 @@ input[type=submit]:hover {
   margin-bottom: 5%; /* Bottom margin */
   margin-right:35%;
   box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
-  transform: translateY(80%);
+  transform: translateY(60%);
 }
 
 .formContainer #registration {

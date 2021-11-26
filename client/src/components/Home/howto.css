@@ -39,3 +39,9 @@
 .wordlist{
     transform: translateY(30%);
 }
+.animate__animated.animate__fadeInRightBig {
+    --animate-duration: 5s;
+  }
+.animate__animated.animate__tada{
+    --animate-duration: 3s;
+}

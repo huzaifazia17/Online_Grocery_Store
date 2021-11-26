@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "animate.css": "^4.1.1",
     "formik": "^2.2.9",
     "mysql2": "^2.3.3",
     "react-redux": "^7.2.6",
