@@ -115,3 +115,14 @@ button a:hover{
         font-size: 90%;
     }
 }
+@media only screen and (max-width: 600px) {
+    .baked-container p{
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 45%;
+    }
+    .addToCart{
+        transform: translateX(-20%);
+    }
+}

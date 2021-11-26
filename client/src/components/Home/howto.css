@@ -45,3 +45,16 @@
 .animate__animated.animate__tada{
     --animate-duration: 3s;
 }
+@media only screen and (max-width: 600px) {
+    
+    .howto-list li{
+        font-size: 20px;
+        transform: translateY(-10%);
+    }
+    .howto-container h1{
+        transform: translateY(-40%);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        
+    }
+}
