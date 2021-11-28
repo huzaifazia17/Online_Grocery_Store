@@ -1,6 +1,5 @@
 .container{
-  background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.295)),url("../images/signBack.jpg") center center/cover no-repeat;
-  background-color: #ebe1ec;
+  background:url("../images/loginBack.jpg") center center/cover no-repeat;  background-color: #ebe1ec;
   height: 100vh;
 }
 .signUp{

@@ -54,7 +54,9 @@ const App = ({ current }) => {
 
           {/*prints out current user signed in*/}
           {authState.status ? (
-            <h1 className="SignInBackground">SIGNED IN AS: {authState.username} </h1>
+            <div className="signin">
+              <h1 className="SignInBackground">SIGNED IN AS: {authState.username} </h1>
+            </div>
           ) : (
             <>
             </>

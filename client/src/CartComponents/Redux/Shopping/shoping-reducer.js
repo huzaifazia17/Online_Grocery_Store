@@ -36,7 +36,7 @@ const INITIAL_STATE = {
                 "Amazing whole chicken. Home grown with no chemcials. GMO. Will change your experience of chickens. This is a great buy",
             price: 15,
             image:
-                "https://morninggo.net/wp-content/uploads/2020/12/Screenshot_1-70.jpg",
+                "https://www.kitchenfrau.com/wp-content/uploads/2018/02/IMG_1906est.jpg",
         },
         {
             id: 5,
