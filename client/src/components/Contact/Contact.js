@@ -1,6 +1,17 @@
 import './Contact.css'
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
+
+    const navigate = useNavigate();
+
+    const submitted = () => {
+        alert("Thank you for submitting this request!");
+
+        navigate("/ContactUs");
+        window.location.reload();
+    }
+
     return (
         <div className="form-container">
 
@@ -46,7 +57,7 @@ const Contact = () => {
                     <label for="message">Message: </label>
                     <textarea id="message" placeholder="Message..." name="message" />
 
-                    <input type="submit" className="send" value ="Submit" />
+                    <input type="submit" className="send" value ="Submit" onClick={submitted}/>
 
                 </form>
             </div>
