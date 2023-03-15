@@ -1,39 +1,28 @@
 # Online Grocery Store
-This is an online grocery store concept with many functionalities. It is not for practical use, although may be enhanced for real world production.
-Created by Huzaifa Zia(huzaifa.zia@ontariotechu.net), Zubair Islam (zubair.islam@ontariotechu.net) and Hanzalah Patel (hanzalah.patel@ontariotechu.net) for a final project for 
-their Web Programming Class.  
-This is a full stack project so it includes a server, database and obviously front end. Read the installation section to get to know how to install this program.  
-Front End Framework: React  
-Database: MYSQL Workbench  
+This is an online grocery store concept with many functionalities. It is not for practical use, although may be enhanced for real world production. This is a full stack project so it includes a server, a database and a front end. Read the installation section to get to know how to install this program.  
+Front End Framework: ReactJS  
+Database: MySQL Workbench  
 Languages: JavaScript, ExpressJS, SQL, JSX, CSS  
+
 # View Demo
 Website: https://h2z2groceries.netlify.app/  
+
 ## Installation
 If everything is not installed automatically, you may follow these step by step procedures:  
 First make sure you have NodeJS installed.  
-```bash
+```
 npm install -g npm
 ```
-Cd into the client folder and install the following:  
-Install react-scripts, formik, react-icons, react-redux, redux, swiper  
-```bash
-npm i react-scripts
-npm i formik
-npm i react-icons
-npm i react-redux
-npm i redux
-npm i swiper
-```
-Cd into the Server folder and install the following:  
-Install mysql2, sequilize, sequelize-cli  
-```bash
-npm i mysql2
-npm i rsequilize --save
-npm i sequelize-cli --save
-```
+Then, cd into the client folder and run the following inside the terminal:  
+
+    npm install
+
+Also, cd into the server folder and run the following inside the terminal:  
+
+    npm install
+      
 ## Usage
-To run the website in your localhost  
-CD inside the client folder and do the following:  
+To run the website in your localhost, cd inside the client folder and do the following:  
 ### `npm start`
 
 Runs the app in the development mode.\  
